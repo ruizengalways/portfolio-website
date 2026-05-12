@@ -1,0 +1,86 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Frontend: Debug Current Test File",
+      "autoAttachChildProcesses": true,
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+      "program": "${workspaceRoot}/frontend/node_modules/vitest/vitest.mjs",
+      "args": ["run", "${relativeFile}"],
+      "smartStep": true,
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Vitest Browser",
+      "program": "${workspaceRoot}/frontend/node_modules/vitest/vitest.mjs",
+      "console": "integratedTerminal",
+      "args": ["--inspect-brk", "--browser", "--no-file-parallelism"]
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "Attach to Vitest Browser",
+      "port": 9229
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Backend: Debug Unit Vitest - current file",
+      "program": "${workspaceFolder}/backend/node_modules/vitest/vitest.mjs",
+      "cwd": "${workspaceFolder}/backend",
+      "args": ["--config", "vitest.config.mts", "run", "${file}"],
+      "env": { "NODE_OPTIONS": "--enable-source-maps" },
+      "autoAttachChildProcesses": true,
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Backend: Open inspector with Worker Vitest - current file",
+      "program": "${workspaceFolder}/backend/node_modules/vitest/vitest.mjs",
+      "cwd": "${workspaceFolder}/backend",
+      "console": "integratedTerminal",
+      "args": [
+        "--config",
+        "vitest.worker.config.mts",
+        "--inspect=9229",
+        "--no-file-parallelism",
+        "run",
+        "${file}"
+      ]
+    },
+    {
+      "name": "Backend: Attach to Workers Runtime",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "cwd": "/",
+      "resolveSourceMapLocations": null,
+      "attachExistingChildren": false,
+      "autoAttachChildProcesses": false
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug Vitest Browser",
+      "configurations": ["Attach to Vitest Browser", "Run Vitest Browser"],
+      "stopAll": true
+    },
+    {
+      "name": "Backend: Debug Worker Vitest - current file",
+      "configurations": [
+        "Backend: Open inspector with Worker Vitest - current file",
+        "Backend: Attach to Workers Runtime"
+      ],
+      "stopAll": true
+    }
+  ]
+}

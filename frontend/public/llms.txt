@@ -1,0 +1,49 @@
+# Dr. Rui Zeng - Portfolio & Technical Documentation
+
+> PhD in AI with deep expertise building production-grade intelligent systems that combine backend architecture, scalable data platforms, and machine learning models
+
+## Core Identity
+- **Role:** AI Engineer, Full Stack Developer, Data Engineer, Data Scientist, System Designer
+- **Credentials:** PhD in Artificial Intelligence
+- **Focus:** Intersection of AI, System Design, and Production Engineering
+- **Website:** https://ruizeng.dev
+- **Location:** Global
+
+## Technical Expertise
+### AI & Machine Learning
+- **Level:** Expert (PhD)
+- **Skills:** Large Language Models (LLM), Deep Learning and Neural Networks, Natural Language Processing (NLP), Computer Vision, Feature Engineering, Model Training and Optimization, Transfer Learning, Retrieval Augmented Generation (RAG), Prompt Engineering
+
+### Full Stack Development
+- **Level:** Expert
+- **Skills:** Frontend Development, Backend API Design, Full-stack Architecture, Real-time Systems, API Gateway Management
+
+### Data Engineering
+- **Level:** Expert (Principal-level)
+- **Skills:** Data Pipeline Architecture, ETL/ELT Design, Real-time Streaming, Data Modeling, Data Quality & Governance, Database Optimization, DataOps, MLOps
+
+### System Architecture & Design
+- **Level:** Expert
+- **Skills:** Scalable Architecture Design, Microservices Architecture, Cloud-native Design Patterns, Performance Optimization, Reliability Engineering, Infrastructure as Code, DevOps Practices
+
+## Technical Stack
+- **Primary Languages:** Python, TypeScript, JavaScript
+- **Cloud & Platforms:** AWS, Azure, GCP, Cloudflare
+- **Data Infrastructure:** Snowflake, Databricks, BigQuery
+
+## Navigation Map
+- [Introduction](/hero): Professional headline and key positioning
+- [About & Background](/about): Detailed professional background and career narrative
+- [Core Expertise Areas](/expertise): Key technical competencies and specializations
+- [Research & Publications](/research): Academic contributions and research work
+- [Showcase Projects](/projects): Featured projects demonstrating technical capabilities
+- [Technical Skills Matrix](/skills): Comprehensive technical skills across multiple domains
+- [Contact & Engagement](/contact): Ways to connect and get in touch
+
+## AI Indexing Hints
+- **Crawl Rate:** Generous (1+ req/sec)
+- **Structured Data:** Supported (JSON-LD, Schema.org)
+- **Training Allowed:** Yes
+
+---
+*Generated automatically from portfolioMetadata on 2026-04-22*

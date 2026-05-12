@@ -1,0 +1,67 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "dr-rui-zeng-portfolio-api",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-01-28",
+	"observability": {
+		"enabled": true,
+	},
+	"dev": {
+		"ip": "0.0.0.0",
+		"port": 8787,
+	},
+	"vars": {
+		"ENVIRONMENT": "dev",
+		"FRONTEND_URL": "http://localhost:5173",
+	},
+	"kv_namespaces": [
+		{
+			"binding": "MESSAGES_KV",
+			"id": "default-kv",
+			"preview_id": "default-kv-preview",
+		},
+		{
+			"binding": "RATE_LIMIT_KV",
+			"id": "rate-limit-kv",
+			"preview_id": "rate-limit-kv-preview",
+		},
+	],
+
+	"env": {
+		"preview": {
+			"vars": {
+				"ENVIRONMENT": "preview",
+				"FRONTEND_URL": "https://preview.ruizeng.dev",
+			},
+			"kv_namespaces": [
+				{ "binding": "MESSAGES_KV", "id": "99ea0e550f7849918a85509ddd55cf9e" },
+				{ "binding": "RATE_LIMIT_KV", "id": "4319ba1698524d0d9f607bd3309794b9" },
+			],
+		},
+		"test": {
+			"vars": {
+				"ENVIRONMENT": "test",
+				"FRONTEND_URL": "http://localhost:3000",
+			},
+			"kv_namespaces": [
+				{ "binding": "MESSAGES_KV", "id": "test-messages-kv-id" },
+				{ "binding": "RATE_LIMIT_KV", "id": "test-rate-limit-kv-id" },
+			],
+		},
+
+		"production": {
+			"vars": {
+				"ENVIRONMENT": "production",
+				"FRONTEND_URL": "https://ruizeng.dev",
+			},
+			"kv_namespaces": [
+				{ "binding": "MESSAGES_KV", "id": "42ff84f278184788ac6d855e43a385cb" },
+				{ "binding": "RATE_LIMIT_KV", "id": "5bdf855a7829488f9f49a11b571f9902" },
+			],
+		},
+	},
+}

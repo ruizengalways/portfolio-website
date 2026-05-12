@@ -1,0 +1,44 @@
+# robots.txt - Optimized for AI Crawlers and Search Engines
+# This file helps AI-based search engines and LLM crawlers discover and index content
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: 
+
+# Specific rules for AI/LLM crawlers (explicitly allow)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: claude-web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location for better discoverability
+Sitemap: https://ruizeng.dev/sitemap.xml
+
+# Crawl delay (in seconds) - generous for AI crawlers
+Crawl-delay: 1
+
+# Request rate (pages per second) - allowing fast crawling
+Request-rate: 10/1s

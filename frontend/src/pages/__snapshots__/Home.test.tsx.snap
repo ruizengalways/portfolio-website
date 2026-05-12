@@ -1,0 +1,3140 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home Page > matches snapshot 1`] = `
+<div
+  class="min-h-screen bg-background text-foreground overflow-x-hidden overflow-y-auto"
+>
+  <div
+    class="fixed inset-0 overflow-hidden pointer-events-none z-0"
+  >
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.4731586545829731px; height: 1.4731586545829731px; left: 87.95478512893983%; top: 77.73706979567278%; opacity: 0.7397200680782624; animation-duration: 4.674051326922503s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.560760735563253px; height: 2.560760735563253px; left: 69.23341300283042%; top: 42.94290961635383%; opacity: 0.5019672433431035; animation-duration: 2.0990526279792805s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.0548801477663137px; height: 1.0548801477663137px; left: 58.131713707043176%; top: 19.330747472669742%; opacity: 0.7759396529091265; animation-duration: 4.624696783257408s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.6845081369632995px; height: 3.6845081369632995px; left: 86.60009649373552%; top: 93.74743510844141%; opacity: 0.5282800337798148; animation-duration: 3.0495947052847416s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.3864621749617343px; height: 2.3864621749617343px; left: 37.53358523630169%; top: 66.78857489664307%; opacity: 0.6336978409898519; animation-duration: 2.0895313829247155s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.0707514657123216px; height: 2.0707514657123216px; left: 31.896842236853185%; top: 14.056016924362114%; opacity: 0.6421907680498049; animation-duration: 5.2848151792761335s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.4485593738250575px; height: 3.4485593738250575px; left: 66.00844558165808%; top: 68.9421270259162%; opacity: 0.6711728161074864; animation-duration: 3.3166163929062566s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.049819953447738px; height: 2.049819953447738px; left: 46.58634041335279%; top: 84.1417071264834%; opacity: 0.585100444899411; animation-duration: 5.272759522324373s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.033104184463951px; height: 3.033104184463951px; left: 19.952479708628534%; top: 63.87682249474511%; opacity: 0.9048326238591294; animation-duration: 5.896580974817304s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.514372781841163px; height: 3.514372781841163px; left: 24.63052351432753%; top: 25.389476562458302%; opacity: 0.5948454326692456; animation-duration: 5.82669425866416s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.006669080847884px; height: 3.006669080847884px; left: 76.74757967137191%; top: 62.016701024257934%; opacity: 0.597200001471803; animation-duration: 5.7112876223589595s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.858911130876055px; height: 2.858911130876055px; left: 89.82011782164719%; top: 36.77910740802335%; opacity: 0.5227275305566151; animation-duration: 2.911142557550113s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.2393055002237636px; height: 2.2393055002237636px; left: 90.4452526991412%; top: 80.32414037338941%; opacity: 0.7756764085628784; animation-duration: 2.82060406357531s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.3177259403661647px; height: 2.3177259403661647px; left: 11.065868690444114%; top: 51.42267865637884%; opacity: 0.7134407727791416; animation-duration: 5.030634967798421s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.2226958569234936px; height: 1.2226958569234936px; left: 12.487349520038837%; top: 53.38086505958128%; opacity: 0.9169106041418886; animation-duration: 2.022196942426601s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.4178566963693147px; height: 2.4178566963693147px; left: 77.85572702297989%; top: 18.071419836107992%; opacity: 0.5991678749656848; animation-duration: 5.527852053384468s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.429447770523509px; height: 2.429447770523509px; left: 21.290989904741732%; top: 6.344072486900398%; opacity: 0.6792007380834244; animation-duration: 4.427572638967151s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.793861514269583px; height: 2.793861514269583px; left: 65.9016569602665%; top: 86.53739598520556%; opacity: 0.6994845911672485; animation-duration: 2.0786317561573155s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.7906563224816923px; height: 2.7906563224816923px; left: 99.49640498681343%; top: 56.5454359503092%; opacity: 0.8445229451327362; animation-duration: 3.765356192983779s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.0177221555534484px; height: 2.0177221555534484px; left: 74.89333868032335%; top: 60.15598106273892%; opacity: 0.6425646205278853; animation-duration: 2.9022092385879286s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.5207989155486157px; height: 3.5207989155486157px; left: 68.20138992015605%; top: 60.20316945455653%; opacity: 0.8784614776408289; animation-duration: 4.033679891355355s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.4036461285918438px; height: 1.4036461285918438px; left: 42.517862308675646%; top: 16.536288195555116%; opacity: 0.673824138578198; animation-duration: 4.867877850550606s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.4444870202808113px; height: 1.4444870202808113px; left: 7.745403130495376%; top: 51.09336026751016%; opacity: 0.9681487974393911; animation-duration: 4.3498830704044416s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.28217103437639px; height: 3.28217103437639px; left: 15.343087334922402%; top: 38.392454743987805%; opacity: 0.5626487371305435; animation-duration: 2.5935551666730183s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.4647170784173666px; height: 1.4647170784173666px; left: 5.433047548959058%; top: 33.12646739699083%; opacity: 0.9376434518996783; animation-duration: 5.465387540110812s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.8280710514406353px; height: 1.8280710514406353px; left: 39.142119853559954%; top: 83.38834009557678%; opacity: 0.6828178718782046; animation-duration: 2.4718201585430246s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.6676115841272945px; height: 3.6676115841272945px; left: 30.965110046535905%; top: 27.346621961283944%; opacity: 0.6712500673990887; animation-duration: 3.9030186690284117s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.2142814061447296px; height: 3.2142814061447296px; left: 30.29091994752543%; top: 60.51123643121507%; opacity: 0.8033297835333456; animation-duration: 5.62865825298108s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.8901848390437135px; height: 1.8901848390437135px; left: 51.420177539584756%; top: 28.988629690366874%; opacity: 0.9451454976781398; animation-duration: 2.8613837342662896s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.916494586037932px; height: 1.916494586037932px; left: 29.450740778909047%; top: 56.90274932316921%; opacity: 0.7737185561378674; animation-duration: 5.55819987917933s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.1299460156955385px; height: 2.1299460156955385px; left: 46.106719498807514%; top: 34.64678893040391%; opacity: 0.8274509033925141; animation-duration: 4.489429176370633s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.1155660839243335px; height: 1.1155660839243335px; left: 34.3617648572507%; top: 77.78412816323042%; opacity: 0.7241833119182564; animation-duration: 4.629656343361887s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.6619522599534324px; height: 2.6619522599534324px; left: 90.3588862529715%; top: 35.56888334244817%; opacity: 0.7871403804417536; animation-duration: 4.365814386660322s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.6359438523005547px; height: 2.6359438523005547px; left: 92.93869664479509%; top: 20.915440656045337%; opacity: 0.9571334837040806; animation-duration: 3.268526819837636s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.431906850645436px; height: 2.431906850645436px; left: 47.507885960136534%; top: 59.299797768478705%; opacity: 0.9616153840987582; animation-duration: 4.142634367037181s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.08755000547118px; height: 2.08755000547118px; left: 76.21016609273094%; top: 46.69635185825337%; opacity: 0.7305468177888279; animation-duration: 5.20619192104593s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.1634549541941084px; height: 2.1634549541941084px; left: 83.86781778135342%; top: 39.84521422448507%; opacity: 0.6402048448761554; animation-duration: 3.3210360803919436s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.007140535891816px; height: 3.007140535891816px; left: 70.10846495237132%; top: 51.047225043780685%; opacity: 0.8684285016413131; animation-duration: 4.8452890069879135s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.898671266731075px; height: 2.898671266731075px; left: 45.64105723028763%; top: 34.210234939774786%; opacity: 0.5065825060278761; animation-duration: 3.152152593176456s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.55762558155902px; height: 2.55762558155902px; left: 56.34137827101112%; top: 28.148643526640036%; opacity: 0.7330251148631579; animation-duration: 2.2644143992536674s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.5273520582770836px; height: 2.5273520582770836px; left: 30.266164232099392%; top: 63.910799319690994%; opacity: 0.6249071846432828; animation-duration: 3.41130913466568s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.6129195410964425px; height: 2.6129195410964425px; left: 6.609115149160538%; top: 24.401982463635143%; opacity: 0.8394177265831307; animation-duration: 2.774104897359251s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.7900801960045896px; height: 2.7900801960045896px; left: 68.57875617090184%; top: 37.24110611245759%; opacity: 0.7189959587938959; animation-duration: 3.578986306619381s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.802563745061093px; height: 2.802563745061093px; left: 31.130846749522778%; top: 14.999508113768012%; opacity: 0.998247598950461; animation-duration: 3.973152472085104s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.362936958378922px; height: 2.362936958378922px; left: 25.737456041434235%; top: 58.01770927659739%; opacity: 0.606608690451786; animation-duration: 5.096862025804388s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.8158989100074008px; height: 1.8158989100074008px; left: 41.526054306390634%; top: 99.40426133845428%; opacity: 0.8741303784130352; animation-duration: 5.537930316486506s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.7960864668526066px; height: 2.7960864668526066px; left: 96.24528350725143%; top: 64.49755179828476%; opacity: 0.7245920378516123; animation-duration: 5.535723309334751s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.315987467416041px; height: 3.315987467416041px; left: 22.12461378863624%; top: 4.037761284465057%; opacity: 0.9700529431860587; animation-duration: 3.8226402073248154s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.2615238088640193px; height: 1.2615238088640193px; left: 97.42651710374761%; top: 95.7879197812016%; opacity: 0.7469951180180556; animation-duration: 4.7425180166363s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.508684407745927px; height: 3.508684407745927px; left: 32.180251738461806%; top: 17.237611502468397%; opacity: 0.6964844527763677; animation-duration: 4.331831391011934s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.2107268455618625px; height: 3.2107268455618625px; left: 7.282760517848674%; top: 2.2778948693064183%; opacity: 0.8748042975988205; animation-duration: 2.2334750681444104s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.3885625231725292px; height: 1.3885625231725292px; left: 78.34763411828361%; top: 40.921932527871974%; opacity: 0.5140951069518838; animation-duration: 4.4138679309478555s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.9499925845618633px; height: 1.9499925845618633px; left: 57.759682493849155%; top: 78.62454706528757%; opacity: 0.6236562369940197; animation-duration: 4.621352348105445s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.639551332749625px; height: 3.639551332749625px; left: 54.164431072567645%; top: 30.02263490621203%; opacity: 0.5976939770535064; animation-duration: 3.105607137296167s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.961044484892319px; height: 1.961044484892319px; left: 97.6668469038327%; top: 89.71933488110523%; opacity: 0.5244865462018728; animation-duration: 4.472302658699583s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.6402279566937064px; height: 3.6402279566937064px; left: 64.67852419683896%; top: 60.652254503329075%; opacity: 0.881759225772238; animation-duration: 5.544422974628136s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.2281734461723488px; height: 1.2281734461723488px; left: 61.6519501656662%; top: 87.88135565502348%; opacity: 0.8493327386589413; animation-duration: 3.9998517890920238s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.505367075454333px; height: 3.505367075454333px; left: 88.16856621884155%; top: 26.525951762563118%; opacity: 0.8349789403984283; animation-duration: 5.684010512522496s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.4428321952339855px; height: 2.4428321952339855px; left: 67.45243354018446%; top: 68.20899812439552%; opacity: 0.695742332849951; animation-duration: 4.454943820314322s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.5051292807939776px; height: 3.5051292807939776px; left: 37.80405708235931%; top: 61.743130304517116%; opacity: 0.6818535113299262; animation-duration: 2.1869362758206736s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.340659311795191px; height: 2.340659311795191px; left: 45.642328881138695%; top: 34.36062714492443%; opacity: 0.9763687143060501; animation-duration: 5.171931473659808s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.327586461424292px; height: 1.327586461424292px; left: 72.88837928437614%; top: 26.030777572267848%; opacity: 0.6053867223225939; animation-duration: 4.251203014087599s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.0539677291704788px; height: 3.0539677291704788px; left: 88.50461085173143%; top: 88.9024458012046%; opacity: 0.9074180614228595; animation-duration: 3.790514114500746s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.9726118831105703px; height: 1.9726118831105703px; left: 70.98690969017156%; top: 63.690200647861985%; opacity: 0.8236307918624479; animation-duration: 4.273179336954277s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.8763079020030125px; height: 1.8763079020030125px; left: 34.10694063291474%; top: 23.45723070239918%; opacity: 0.8604804174505438; animation-duration: 5.9281060695237064s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.374844146872012px; height: 3.374844146872012px; left: 5.589893439566573%; top: 15.734206730818379%; opacity: 0.8323842017331546; animation-duration: 2.246604229569549s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.4004928151072447px; height: 3.4004928151072447px; left: 24.392807363936374%; top: 73.3322535232211%; opacity: 0.9327973929164666; animation-duration: 4.000224542214903s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.4227638761341947px; height: 2.4227638761341947px; left: 17.21359293333685%; top: 33.75978484202968%; opacity: 0.5723372920079449; animation-duration: 3.564030214188255s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 3.422782025784779px; height: 3.422782025784779px; left: 9.736760812331513%; top: 69.40721757668172%; opacity: 0.9343849101899401; animation-duration: 5.118518666109498s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.4587787075380951px; height: 1.4587787075380951px; left: 93.37220265224131%; top: 60.74309738737107%; opacity: 0.5073865929743071; animation-duration: 4.576582067982601s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.1600559612871661px; height: 1.1600559612871661px; left: 54.29467914772208%; top: 62.58694117101382%; opacity: 0.8244220942404166; animation-duration: 4.806600909192838s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.2639908832664288px; height: 1.2639908832664288px; left: 61.26650841004958%; top: 6.6725683991167966%; opacity: 0.6767321731309297; animation-duration: 4.598719561887346s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.0742853835781365px; height: 2.0742853835781365px; left: 39.9802995679176%; top: 90.94035426311903%; opacity: 0.7020311304141211; animation-duration: 5.026052143574962s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.2868432085390413px; height: 1.2868432085390413px; left: 40.779515435467616%; top: 69.2334980302871%; opacity: 0.969020316721626; animation-duration: 4.605069115109492s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.4177674703042125px; height: 2.4177674703042125px; left: 71.64623034924807%; top: 30.159086112121557%; opacity: 0.5222821201240856; animation-duration: 4.186084653639577s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.9662144732898597px; height: 2.9662144732898597px; left: 59.83637222345274%; top: 54.7051274649356%; opacity: 0.7820706081823434; animation-duration: 5.661965828837582s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 1.6786086315322262px; height: 1.6786086315322262px; left: 88.31720583297259%; top: 95.69455604177043%; opacity: 0.7679818644765614; animation-duration: 2.3090593480235233s;"
+    />
+    <div
+      class="star animate-pulse-subtle"
+      style="width: 2.814188957544984px; height: 2.814188957544984px; left: 59.83710364210734%; top: 75.75238654614824%; opacity: 0.6710247433106243; animation-duration: 5.340858108693686s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 359px; left: 63.66703070626508%; top: 14.570493969676907%; animation-delay: 0.4475585585400642s; animation-duration: 7s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 288px; left: 15.41345325906206%; top: 29.419214945130506%; animation-delay: 0.4816475240494135s; animation-duration: 6s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 159px; left: 83.15424584101986%; top: 34.8993088839476%; animation-delay: 0.3873738404859278s; animation-duration: 8s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 234px; left: 3.6333792498398187%; top: 3.7797170874611155%; animation-delay: 0.31730345416108097s; animation-duration: 7s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 345px; left: 65.22902164326318%; top: 11.183514237693448%; animation-delay: 0.6471969221117331s; animation-duration: 7s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 167px; left: 3.773577091240099%; top: 47.89828018809786%; animation-delay: 0.3412378849942499s; animation-duration: 8s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 243px; left: 96.19023060224524%; top: 6.5096886969791825%; animation-delay: 0.2337345968170092s; animation-duration: 5s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 315px; left: 22.330743241658535%; top: 17.614655440144077%; animation-delay: 0.4128087682050312s; animation-duration: 9s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 363px; left: 32.03918155200887%; top: 30.158865890316548%; animation-delay: 0.263978897908992s; animation-duration: 6s;"
+    />
+    <div
+      class="meteor animate-meteor"
+      style="--tail-length: 176px; left: 57.568489551002685%; top: 40.842272933505704%; animation-delay: 0.5281523804624241s; animation-duration: 5s;"
+    />
+  </div>
+  <nav
+    class="fixed top-0 left-0 w-full z-40 transition-all duration-300 py-5"
+  >
+    <div
+      class="container flex items-center justify-between"
+    >
+      <a
+        class="text-xl font-bold text-primary flex items-center"
+        href="#hero"
+      >
+        <span
+          class="relative z-10"
+        >
+          <span
+            class="text-glow text-foreground"
+          >
+             Rui Zeng 
+          </span>
+           
+          Portfolio
+        </span>
+      </a>
+      <div
+        class="hidden md:flex space-x-8"
+      >
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#hero"
+        >
+          Home
+        </a>
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#about"
+        >
+          About
+        </a>
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#expertise"
+        >
+          Expertise
+        </a>
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#projects"
+        >
+          Projects
+        </a>
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#research"
+        >
+          Research
+        </a>
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#skills"
+        >
+          Skills
+        </a>
+        <a
+          class="text-foreground/80 hover:text-primary transition-colors duration-300"
+          href="#contact"
+        >
+          Contact
+        </a>
+        <div
+          class="pl-4 border-l border-border/50"
+        >
+          <button
+            aria-label="Toggle theme"
+            class="relative flex items-center rounded-full p-1 cursor-pointer transition-all duration-300 bg-slate-200 border border-slate-300 shadow-inner dark:bg-slate-800 dark:border-slate-700 focus:outline-none"
+            style="width: 2.8em; height: 1.6em; padding: 0.2em;"
+          >
+            <div
+              class="flex items-center justify-center rounded-full shadow-md transition-all duration-300 ease-in-out translate-x-0 bg-white"
+              style="width: 1.2em; height: 1.2em;"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-moon h-6 w-6 text-blue-900"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                style="width: 0.8em; height: 0.8em;"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <button
+        aria-label="Open Menu"
+        class="md:hidden p-2 text-foreground z-50 relative"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-menu"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 5h16"
+          />
+          <path
+            d="M4 12h16"
+          />
+          <path
+            d="M4 19h16"
+          />
+        </svg>
+         
+      </button>
+      <div
+        class="fixed inset-0 h-screen bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all duration-300 md:hidden opacity-0 pointer-events-none -translate-y-full"
+      >
+        <div
+          class="flex flex-col space-y-8 text-xl"
+        >
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#hero"
+          >
+            Home
+          </a>
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#about"
+          >
+            About
+          </a>
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#expertise"
+          >
+            Expertise
+          </a>
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#projects"
+          >
+            Projects
+          </a>
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#research"
+          >
+            Research
+          </a>
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#skills"
+          >
+            Skills
+          </a>
+          <a
+            class="text-foreground/80 hover:text-primary transition-colors duration-300"
+            href="#contact"
+          >
+            Contact
+          </a>
+          <div
+            class="pt-4 border-t border-border/50 w-full flex justify-center"
+          >
+            <button
+              aria-label="Toggle theme"
+              class="relative flex items-center rounded-full p-1 cursor-pointer transition-all duration-300 bg-slate-200 border border-slate-300 shadow-inner dark:bg-slate-800 dark:border-slate-700 focus:outline-none"
+              style="width: 2.8em; height: 1.6em; padding: 0.2em;"
+            >
+              <div
+                class="flex items-center justify-center rounded-full shadow-md transition-all duration-300 ease-in-out translate-x-0 bg-white"
+                style="width: 1.2em; height: 1.2em;"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-moon h-6 w-6 text-blue-900"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  style="width: 0.8em; height: 0.8em;"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section
+      class="relative min-h-svh flex flex-col items-center px-4 py-20"
+      id="hero"
+    >
+      <div
+        class="container max-w-4xl mx-auto flex flex-col gap-12 md:gap-20 2xl:gap-40 text-center z-10 my-auto"
+      >
+        <h1
+          class="text-4xl md:text-6xl font-bold tracking-tight"
+        >
+          <span
+            class="opacity-0 animate-fade-in"
+          >
+             Hi, I'm Dr 
+          </span>
+          <span
+            class="text-primary opacity-0 animate-fade-in-delay-1"
+          >
+             
+            Rui
+          </span>
+          <span
+            class="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"
+          >
+             
+            Zeng
+          </span>
+        </h1>
+        <div
+          class="flex flex-col items-center space-y-6 opacity-0 animate-fade-in-delay-2"
+        >
+          <h2
+            class="text-2xl md:text-3xl font-semibold text-foreground tracking-tight"
+          >
+            PhD in Artificial Intelligence
+          </h2>
+          <div
+            class="flex flex-wrap justify-center gap-x-3 gap-y-2 text-lg md:text-xl text-muted-foreground font-medium"
+          >
+            <span>
+              Full Stack Developer
+            </span>
+            <span
+              class=" md:inline text-primary/40"
+            >
+              •
+            </span>
+            <span>
+              Data Engineer
+            </span>
+            <span
+              class=" md:inline text-primary/40"
+            >
+              •
+            </span>
+            <span>
+              Data Scientist
+            </span>
+            <span
+              class=" md:inline text-primary/40"
+            >
+              •
+            </span>
+            <span>
+              AI Engineer
+            </span>
+            <span
+              class=" md:inline text-primary/40"
+            >
+              •
+            </span>
+            <span>
+              System Designer
+            </span>
+          </div>
+        </div>
+        <p
+          class="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3"
+        >
+          I design and deliver end-to-end intelligent systems — combining backend architecture, scalable data platform, and machine learning models into production-ready applications.
+        </p>
+        <div
+          class="opacity-0 animate-fade-in-delay-4"
+        >
+          <a
+            class="cosmic-button"
+            href="#expertise"
+          >
+            View My Expertise
+          </a>
+        </div>
+        <div
+          class="flex flex-col items-center animate-bounce"
+        >
+          <span
+            class="text-sm text-muted-foreground mb-2"
+          >
+             Scroll 
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-arrow-down h-[1em] w-[1em] text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 5v14"
+            />
+            <path
+              d="m19 12-7 7-7-7"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative min-h-screen flex flex-col items-center justify-center"
+      id="about"
+    >
+      <div
+        class="container mx-auto max-w-4xl text-center"
+      >
+        <h2
+          class="container text-3xl md:text-5xl font-bold mb-12"
+        >
+          About 
+          <span
+            class="text-primary"
+          >
+            Me
+          </span>
+        </h2>
+        <div
+          class="space-y-8 flex-1 flex flex-col justify-evenly"
+        >
+          <h3
+            class="text-3xl md:text-4xl font-semibold animate-fade-in-delay-1"
+          >
+            Designing Scalable Data & AI Systems That Deliver Real Impact
+          </h3>
+          <div
+            class="space-y-6 animate-fade-in-delay-1"
+          >
+            <p
+              class="text-lg text-muted-foreground max-w-3xl mx-auto"
+            >
+              I am a
+               
+              <span
+                class="text-primary font-bold"
+              >
+                Principal Data Engineer
+              </span>
+               and 
+              <span
+                class="text-primary font-bold"
+              >
+                AI Specialist
+              </span>
+               with a 
+              <span
+                class="text-primary font-bold"
+              >
+                PhD
+              </span>
+               in Artificial Intelligence, dedicated to architecting production-grade platforms that turn complex data into measurable business impact. I specialize in navigating high-ambiguity technical environments—deconstructing vague business requirements into scalable, automated engineering roadmaps.
+            </p>
+            <p
+              class="text-lg text-muted-foreground max-w-3xl mx-auto"
+            >
+              My expertise spans the entire product lifecycle, bridging the gap between deep-tier research and high-performance engineering. I lead the design of cloud-native ecosystems on AWS and Snowflake, with a heavy emphasis on DataOps, MLOps, and Database CI/CD. By implementing self-mutating pipelines and metadata-driven orchestration, I have delivered architectural transformations that reduced processing latency by over 90% while ensuring rigorous enterprise-grade governance and security.
+            </p>
+            <p
+              class="text-lg text-muted-foreground max-w-3xl mx-auto"
+            >
+              I thrive at the intersection of Full-Stack Development, Data Engineering, and Data Science. Whether I am architecting LLM-powered applications, building secure identity management with AWS Cognito, or deploying high-volume streaming architectures, my focus remains on creating resilient "zero-to-one" systems. I don't just build models; I deliver end-to-end intelligent products that are stable, secure, and production-ready.
+            </p>
+          </div>
+          <div
+            class="flex flex-wrap justify-center gap-3 pt-4"
+          >
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              Data Engineering
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              Data Science
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              Machine Learning
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              Data Analysis
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              Data Governance
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              MLOps
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              DataOps
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              Cloud Architecture
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              System Design
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              LLM Applications
+            </span>
+            <span
+              class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+            >
+              AI Applications
+            </span>
+          </div>
+          <div
+            class="flex justify-center"
+          >
+            <a
+              class="cosmic-button"
+              href="#contact"
+            >
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="min-h-screen py-24 px-4 relative"
+      id="expertise"
+    >
+      <div
+        class="container mx-auto max-w-7xl flex flex-col gap-20 2xl:gap-40"
+      >
+        <h2
+          class="text-3xl md:text-5xl font-bold text-center"
+        >
+          What I 
+          <span
+            class="text-primary"
+          >
+            Do
+          </span>
+        </h2>
+        <div
+          class="columns-1 md:columns-2 gap-8 space-y-8 [column-fill:balance]"
+        >
+          <div
+            class="gradient-border p-6 card-hover flex flex-col break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <div
+                class="p-[0.4em] rounded-full bg-primary/10 shrink-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-database h-[1.1em] w-[1.1em] text-primary"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse
+                    cx="12"
+                    cy="5"
+                    rx="9"
+                    ry="3"
+                  />
+                  <path
+                    d="M3 5V19A9 3 0 0 0 21 19V5"
+                  />
+                  <path
+                    d="M3 12A9 3 0 0 0 21 12"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="text-xl font-semibold leading-none text-foreground"
+              >
+                Data Engineering & Platforms
+              </h3>
+            </div>
+            <p
+              class="text-muted-foreground mb-6 leading-relaxed"
+            >
+              Designing and operating scalable data platforms that enable reliable, high-performance data processing and analytics at scale.
+            </p>
+            <ul
+              class="text-sm text-muted-foreground space-y-1 items-start text-left"
+            >
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Medallion architecture, data mesh & lakehouse design
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Data lakes & warehouses (Snowflake, BigQuery, Databricks, Microsoft Fabric)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Batch & real-time data processing (Spark, Kafka, streaming architectures)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  ETL/ELT orchestration (Airflow, Prefect, DBT)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Data modelling & transformation (SCD2, Data Vault, dimensional modelling)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Performance & cost optimisation (latency reduction, resource efficiency)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Data reliability & observability (testing, monitoring, data quality)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Data platform design (scalability, fault tolerance, maintainability)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Access control (RBAC, IAM, fine-grained permissions)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Data governance frameworks (lineage, catalog, auditability)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Privacy-aware data processing & compliance
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Secure data access patterns (APIs, VPC, private endpoints)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Data lifecycle management & retention strategies
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="gradient-border p-6 card-hover flex flex-col break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <div
+                class="p-[0.4em] rounded-full bg-primary/10 shrink-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-cloud h-[1.1em] w-[1.1em] text-primary"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="text-xl font-semibold leading-none text-foreground"
+              >
+                Cloud Architecture & Infrastructure
+              </h3>
+            </div>
+            <p
+              class="text-muted-foreground mb-6 leading-relaxed"
+            >
+              Architecting cloud-native, distributed systems with strong emphasis on scalability, reliability, and cost efficiency across multi-cloud environments.
+            </p>
+            <ul
+              class="text-sm text-muted-foreground space-y-1 items-start text-left"
+            >
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Multi-cloud architecture (AWS, Azure, GCP)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  AWS ecosystem (S3, Lambda, EKS, Athena, EventBridge, Glue)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Azure & Fabric (Data Factory, Synapse, Databricks, Microsoft Fabric)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  GCP (BigQuery, Dataflow, Pub/Sub, Cloud Functions)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Infrastructure as Code (Terraform, CloudFormation, CDK)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Containerisation & orchestration (Docker, Kubernetes)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Networking & security (VPC, IAM, private networking)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  High availability & distributed system design
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="gradient-border p-6 card-hover flex flex-col break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <div
+                class="p-[0.4em] rounded-full bg-primary/10 shrink-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-brain-circuit h-[1.1em] w-[1.1em] text-primary"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"
+                  />
+                  <path
+                    d="M9 13a4.5 4.5 0 0 0 3-4"
+                  />
+                  <path
+                    d="M6.003 5.125A3 3 0 0 0 6.401 6.5"
+                  />
+                  <path
+                    d="M3.477 10.896a4 4 0 0 1 .585-.396"
+                  />
+                  <path
+                    d="M6 18a4 4 0 0 1-1.967-.516"
+                  />
+                  <path
+                    d="M12 13h4"
+                  />
+                  <path
+                    d="M12 18h6a2 2 0 0 1 2 2v1"
+                  />
+                  <path
+                    d="M12 8h8"
+                  />
+                  <path
+                    d="M16 8V5a2 2 0 0 1 2-2"
+                  />
+                  <circle
+                    cx="16"
+                    cy="13"
+                    r=".5"
+                  />
+                  <circle
+                    cx="18"
+                    cy="3"
+                    r=".5"
+                  />
+                  <circle
+                    cx="20"
+                    cy="21"
+                    r=".5"
+                  />
+                  <circle
+                    cx="20"
+                    cy="8"
+                    r=".5"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="text-xl font-semibold leading-none text-foreground"
+              >
+                Machine Learning & AI Systems
+              </h3>
+            </div>
+            <p
+              class="text-muted-foreground mb-6 leading-relaxed"
+            >
+              Building production-grade AI systems that bridge research and real-world applications, with strong focus on reliability, safety, and measurable business impact.
+            </p>
+            <ul
+              class="text-sm text-muted-foreground space-y-1 items-start text-left"
+            >
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  LLMs, NLP, and computer vision applications
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  End-to-end ML lifecycle (data → training → deployment → monitoring)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Model training, evaluation & optimisation
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Feature engineering & data-centric AI
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  MLOps (CI/CD, automated testing, monitoring, reproducibility)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  SageMaker & cloud-based ML platforms
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  AI system integration into data platforms & products
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Applied AI for real-time and large-scale systems
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  LLM guardrails (prompt safety, hallucination mitigation, output validation)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Responsible AI (ethics, bias mitigation, fairness, explainability)
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="gradient-border p-6 card-hover flex flex-col break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <div
+                class="p-[0.4em] rounded-full bg-primary/10 shrink-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-rocket h-[1.1em] w-[1.1em] text-primary"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"
+                  />
+                  <path
+                    d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"
+                  />
+                  <path
+                    d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"
+                  />
+                  <path
+                    d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="text-xl font-semibold leading-none text-foreground"
+              >
+                Platform Engineering & DevOps
+              </h3>
+            </div>
+            <p
+              class="text-muted-foreground mb-6 leading-relaxed"
+            >
+              Enabling reliable and scalable production systems through automation, CI/CD, and robust platform engineering practices.
+            </p>
+            <ul
+              class="text-sm text-muted-foreground space-y-1 items-start text-left"
+            >
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  CI/CD pipelines (GitHub Actions, Jenkins)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Infrastructure automation & deployment pipelines
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Docker & Kubernetes for scalable workloads
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Linux systems & Bash scripting
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Monitoring & observability (logs, metrics, alerting)
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  System reliability & incident response
+                </span>
+              </li>
+              <li
+                class="flex items-start gap-3"
+              >
+                <span
+                  class="text-primary font-bold shrink-0"
+                >
+                  •
+                </span>
+                <span>
+                  Performance tuning & optimisation
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="flex justify-center"
+        >
+          <a
+            class="cosmic-button"
+            href="#projects"
+          >
+            View my works
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-24 px-4 relative"
+      id="research"
+    >
+      <div
+        class="container mx-auto max-w-6xl flex flex-col gap-16"
+      >
+        <div
+          class="text-center"
+        >
+          <h2
+            class="text-3xl md:text-5xl font-bold"
+          >
+            Research & 
+            <span
+              class="text-primary"
+            >
+              Innovation
+            </span>
+          </h2>
+          <p
+            class="text-muted-foreground mt-4 max-w-2xl mx-auto"
+          >
+            PhD-trained AI and machine learning professional with interdisciplinary expertise spanning computer vision, medical AI, LLMs, and industrial applications. Leveraging research experience to solve complex, ambiguous problems, fast-track cutting-edge technologies, and define strategies from vague directions. Proven track record in leading end-to-end AI projects, translating innovative ideas into practical solutions that improve productivity, reduce costs, and drive measurable impact across healthcare, industry, and sports domains.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-3 gap-6"
+        >
+          <div
+            class="gradient-border p-6 text-center card-hover"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chart-column mx-auto mb-3 text-primary"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 3v16a2 2 0 0 0 2 2h16"
+              />
+              <path
+                d="M18 17V9"
+              />
+              <path
+                d="M13 17V5"
+              />
+              <path
+                d="M8 17v-3"
+              />
+            </svg>
+            <div
+              class="text-3xl font-bold text-foreground"
+            >
+              <span>
+                0+
+              </span>
+            </div>
+            <p
+              class="text-sm text-muted-foreground mt-2"
+            >
+              Citations
+            </p>
+          </div>
+          <div
+            class="gradient-border p-6 text-center card-hover"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-file-text mx-auto mb-3 text-primary"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+              />
+              <path
+                d="M14 2v5a1 1 0 0 0 1 1h5"
+              />
+              <path
+                d="M10 9H8"
+              />
+              <path
+                d="M16 13H8"
+              />
+              <path
+                d="M16 17H8"
+              />
+            </svg>
+            <div
+              class="text-3xl font-bold text-foreground"
+            >
+              <span>
+                0+
+              </span>
+            </div>
+            <p
+              class="text-sm text-muted-foreground mt-2"
+            >
+              Publications
+            </p>
+          </div>
+          <div
+            class="gradient-border p-6 text-center card-hover"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trending-up mx-auto mb-3 text-primary"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 7h6v6"
+              />
+              <path
+                d="m22 7-8.5 8.5-5-5L2 17"
+              />
+            </svg>
+            <div
+              class="text-3xl font-bold text-foreground"
+            >
+              <span>
+                0
+              </span>
+            </div>
+            <p
+              class="text-sm text-muted-foreground mt-2"
+            >
+              h-index
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center gap-6"
+        >
+          <h3
+            class="text-xl md:text-2xl font-semibold"
+          >
+            Research Areas
+          </h3>
+          <div
+            class="flex flex-wrap justify-center gap-3 max-w-3xl"
+          >
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Large Language Models
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Natural Language Processing
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Computer Vision
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              3D Vision
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Classification & Detection
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Multimodal Learning
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Generative AI
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              AI for Healthcare
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              AI for Industry
+            </span>
+            <span
+              class="px-4 py-2 rounded-full bg-primary/5 border border-primary/50
+                           text-sm text-primary font-medium
+                           hover:bg-primary/10 hover:border-primary
+                           hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                           transition-all duration-300 animate-float cursor-default"
+            >
+              Segmentation & Instance Segmentation
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex justify-center"
+        >
+          <a
+            class="cosmic-button"
+            href="https://scholar.google.com/citations?user=ddVT6cMAAAAJ&hl=en"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Google Scholar
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="min-h-screen py-24 px-4 relative"
+      id="projects"
+    >
+      <div
+        class="container mx-auto max-w-5xl flex flex-col gap-10 2xl:gap-20"
+      >
+        <div
+          class="text-center space-y-4"
+        >
+          <h2
+            class="container text-3xl md:text-5xl font-bold mb-12"
+          >
+             
+            Featured 
+            <span
+              class="text-primary"
+            >
+               Projects 
+            </span>
+          </h2>
+          <p
+            class="text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
+          >
+            Showcasing robust architectures built with a 'zero-to-one' mindset. From high-volume streaming pipelines to LLM-powered applications, each project leverages modern DataOps and MLOps principles to ensure enterprise-grade security, high availability, and rigorous performance standards.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <div
+            class="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+          >
+            <div
+              class="h-48 overflow-hidden"
+            >
+              <img
+                alt="Portfolio Website"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                src="/projects/portfolio-website-project-cover.png"
+              />
+            </div>
+            <div
+              class="p-6"
+            >
+              <div
+                class="flex flex-wrap gap-2 mb-4"
+              >
+                <span
+                  class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                >
+                  React
+                </span>
+                <span
+                  class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                >
+                  TailwindCSS
+                </span>
+                <span
+                  class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                >
+                  Cloudflare
+                </span>
+                <span
+                  class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                >
+                  CI/CD
+                </span>
+              </div>
+              <h3
+                class="text-xl font-semibold mb-1"
+              >
+                 
+                Portfolio Website
+              </h3>
+              <p
+                class="text-muted-foreground text-sm mb-4"
+              >
+                A high-performance personal infrastructure project designed with a systems-thinking approach. Built using React and TailwindCSS, this platform integrates a modern CI/CD pipeline via GitHub Actions and Cloudflare, showcasing a production-grade implementation of web architecture, responsive design, and automated deployment.
+              </p>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="flex space-x-3"
+                >
+                  <a
+                    class="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    href="https://ruizeng-lucky.workers.dev"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-external-link"
+                      fill="none"
+                      height="20"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="M10 14 21 3"
+                      />
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    class="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    href="https://github.com/ruizengalways/portfolio-website"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-github"
+                      fill="none"
+                      height="20"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                      />
+                      <path
+                        d="M9 18c-4.51 2-5-2-7-2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center mt-12"
+        >
+          <a
+            class="cosmic-button w-fit flex items-center mx-auto gap-2"
+            href="https://github.com/ruizengalways"
+            target="_blank"
+          >
+            Check My Github 
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-24 px-4 relative min-h-screen snap-start"
+      id="skills"
+    >
+      <div
+        class="container mx-auto max-w-6xl text-center flex flex-col gap-10 2xl:gap-20"
+      >
+        <div
+          class="text-center space-y-4"
+        >
+          <h2
+            class="container text-3xl md:text-5xl font-bold mb-12"
+          >
+             
+            How I Build 
+            <span
+              class="text-primary"
+            >
+              Systems
+            </span>
+          </h2>
+          <p
+            class="text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
+          >
+            The core technologies and frameworks I use to solve complex problems and build modern infrastructure.
+          </p>
+        </div>
+        <div
+          class="columns-1 md:columns-2 gap-10 [column-fill:balance] text-left space-y-10"
+        >
+          <div
+            class="break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-database h-5 w-5 text-primary"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <ellipse
+                  cx="12"
+                  cy="5"
+                  rx="9"
+                  ry="3"
+                />
+                <path
+                  d="M3 5V19A9 3 0 0 0 21 19V5"
+                />
+                <path
+                  d="M3 12A9 3 0 0 0 21 12"
+                />
+              </svg>
+              <h3
+                class="text-xl font-semibold"
+              >
+                Core Languages
+              </h3>
+            </div>
+            <div
+              class="flex flex-wrap gap-3"
+            >
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Python
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                TypeScript
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                JavaScript
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Go
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                C#
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                C++
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                SQL
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                R
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                MATLAB
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Bash / Shell
+              </span>
+            </div>
+          </div>
+          <div
+            class="break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-database h-5 w-5 text-primary"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <ellipse
+                  cx="12"
+                  cy="5"
+                  rx="9"
+                  ry="3"
+                />
+                <path
+                  d="M3 5V19A9 3 0 0 0 21 19V5"
+                />
+                <path
+                  d="M3 12A9 3 0 0 0 21 12"
+                />
+              </svg>
+              <h3
+                class="text-xl font-semibold"
+              >
+                Data Platforms
+              </h3>
+            </div>
+            <div
+              class="flex flex-wrap gap-3"
+            >
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Kafka
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Spark
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Airflow
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                DBT
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Prefect
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                ETL / ELT
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Data Modelling (SCD2, Data Vault)
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Data Lakes & Lakehouse
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Parquet
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                PyArrow
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Pandas
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                SQLAlchemy
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                CDC
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Hive
+              </span>
+            </div>
+          </div>
+          <div
+            class="break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-database h-5 w-5 text-primary"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <ellipse
+                  cx="12"
+                  cy="5"
+                  rx="9"
+                  ry="3"
+                />
+                <path
+                  d="M3 5V19A9 3 0 0 0 21 19V5"
+                />
+                <path
+                  d="M3 12A9 3 0 0 0 21 12"
+                />
+              </svg>
+              <h3
+                class="text-xl font-semibold"
+              >
+                Databases & Warehouses
+              </h3>
+            </div>
+            <div
+              class="flex flex-wrap gap-3"
+            >
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                PostgreSQL
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                MySQL
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Greenplum
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Snowflake
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Snowpark
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Google BigQuery
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                AWS Redshift
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Microsoft Fabric
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                NoSQL
+              </span>
+            </div>
+          </div>
+          <div
+            class="break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-cpu h-5 w-5 text-primary"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 20v2"
+                />
+                <path
+                  d="M12 2v2"
+                />
+                <path
+                  d="M17 20v2"
+                />
+                <path
+                  d="M17 2v2"
+                />
+                <path
+                  d="M2 12h2"
+                />
+                <path
+                  d="M2 17h2"
+                />
+                <path
+                  d="M2 7h2"
+                />
+                <path
+                  d="M20 12h2"
+                />
+                <path
+                  d="M20 17h2"
+                />
+                <path
+                  d="M20 7h2"
+                />
+                <path
+                  d="M7 20v2"
+                />
+                <path
+                  d="M7 2v2"
+                />
+                <rect
+                  height="16"
+                  rx="2"
+                  width="16"
+                  x="4"
+                  y="4"
+                />
+                <rect
+                  height="8"
+                  rx="1"
+                  width="8"
+                  x="8"
+                  y="8"
+                />
+              </svg>
+              <h3
+                class="text-xl font-semibold"
+              >
+                Cloud & Infrastructure
+              </h3>
+            </div>
+            <div
+              class="flex flex-wrap gap-3"
+            >
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                AWS (S3, Lambda, EKS, Athena, EventBridge, SNS, Glue)
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Azure (Data Factory, Synapse, Databricks)
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                GCP (BigQuery, Dataflow, Pub/Sub, Cloud Functions)
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Terraform
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                CloudFormation
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                VPC & Networking
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Cloud Monitoring (CloudWatch, Stackdriver)
+              </span>
+            </div>
+          </div>
+          <div
+            class="break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-brain-circuit h-5 w-5 text-primary"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"
+                />
+                <path
+                  d="M9 13a4.5 4.5 0 0 0 3-4"
+                />
+                <path
+                  d="M6.003 5.125A3 3 0 0 0 6.401 6.5"
+                />
+                <path
+                  d="M3.477 10.896a4 4 0 0 1 .585-.396"
+                />
+                <path
+                  d="M6 18a4 4 0 0 1-1.967-.516"
+                />
+                <path
+                  d="M12 13h4"
+                />
+                <path
+                  d="M12 18h6a2 2 0 0 1 2 2v1"
+                />
+                <path
+                  d="M12 8h8"
+                />
+                <path
+                  d="M16 8V5a2 2 0 0 1 2-2"
+                />
+                <circle
+                  cx="16"
+                  cy="13"
+                  r=".5"
+                />
+                <circle
+                  cx="18"
+                  cy="3"
+                  r=".5"
+                />
+                <circle
+                  cx="20"
+                  cy="21"
+                  r=".5"
+                />
+                <circle
+                  cx="20"
+                  cy="8"
+                  r=".5"
+                />
+              </svg>
+              <h3
+                class="text-xl font-semibold"
+              >
+                Machine Learning & AI
+              </h3>
+            </div>
+            <div
+              class="flex flex-wrap gap-3"
+            >
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                PyTorch
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                TensorFlow
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Scikit-learn
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                LLMs & AI Applications
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Computer Vision
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Natural Language Processing
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Deep Learning
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Feature Engineering
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Statistical Modelling
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                SageMaker
+              </span>
+            </div>
+          </div>
+          <div
+            class="break-inside-avoid"
+          >
+            <div
+              class="flex items-center gap-3 mb-4"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-rocket h-5 w-5 text-primary"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"
+                />
+                <path
+                  d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"
+                />
+                <path
+                  d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"
+                />
+                <path
+                  d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"
+                />
+              </svg>
+              <h3
+                class="text-xl font-semibold"
+              >
+                Platform Engineering & DevOps
+              </h3>
+            </div>
+            <div
+              class="flex flex-wrap gap-3"
+            >
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Docker
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Kubernetes
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                CI/CD (GitHub Actions, Jenkins)
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Linux
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Monitoring & Observability
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Infrastructure as Code
+              </span>
+              <span
+                class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+              >
+                Testing (PyTest)
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="min-h-screen py-24 px-4 relative bg-secondary/30"
+      id="contact"
+    >
+      <div
+        class="container mx-auto max-w-5xl"
+      >
+        <h2
+          class="container text-3xl md:text-5xl font-bold mb-12"
+        >
+          Get In 
+          <span
+            class="text-primary"
+          >
+             Touch
+          </span>
+        </h2>
+        <p
+          class="text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
+        >
+          Looking to solve complex data or AI challenges? Let’s connect and explore how we can deliver scalable, high-impact solutions.
+        </p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-12"
+        >
+          <div
+            class="space-y-24 w-fit mx-auto text-left"
+          >
+            <h3
+              class="text-2xl font-semibold mb-6"
+            >
+               
+              Contact Information
+            </h3>
+            <div
+              class="space-y-6 flex flex-col flex-1 item-center justify-center"
+            >
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="p-3 rounded-full bg-primary/10"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-mail h-6 w-6 text-primary"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                    />
+                    <rect
+                      height="16"
+                      rx="2"
+                      width="20"
+                      x="2"
+                      y="4"
+                    />
+                  </svg>
+                   
+                </div>
+                <div>
+                  <h4
+                    class="font-medium"
+                  >
+                     Email
+                  </h4>
+                  <a
+                    class="text-muted-foreground hover:text-primary transition-colors"
+                    href="mailto:r.zeng@outlook.com"
+                  >
+                    r.zeng@outlook.com
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="p-3 rounded-full bg-primary/10"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-phone h-6 w-6 text-primary"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                    />
+                  </svg>
+                   
+                </div>
+                <div>
+                  <h4
+                    class="font-medium"
+                  >
+                     Phone
+                  </h4>
+                  <a
+                    class="text-muted-foreground hover:text-primary transition-colors"
+                    href="tel:+11234567890"
+                  >
+                    Available upon request
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="p-3 rounded-full bg-primary/10"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-map-pin h-6 w-6 text-primary"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                    />
+                    <circle
+                      cx="12"
+                      cy="10"
+                      r="3"
+                    />
+                  </svg>
+                   
+                </div>
+                <div>
+                  <h4
+                    class="font-medium"
+                  >
+                     Location
+                  </h4>
+                  <a
+                    class="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    Sydney, NSW, Australia
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3
+                class="text-2xl font-semibold mb-6 text-center md:text-left"
+              >
+                Connect With Me
+              </h3>
+              <div
+                class="flex items-center justify-center md:justify-start gap-6"
+              >
+                <a
+                  href="https://www.linkedin.com/in/rui-zeng/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="28"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="28"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/ruizengalways"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="28"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 496 512"
+                    width="28"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://scholar.google.com.au/citations?user=ddVT6cMAAAAJ&hl=en"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="28"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="28"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-background rounded-lg "
+          >
+            <h3
+              class="text-2xl font-semibold mb-6"
+            >
+               Send a Message
+            </h3>
+            <form
+              class="space-y-6"
+            >
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  for="name"
+                >
+                   
+                  Your Name
+                </label>
+                <input
+                  class="w-full px-4 py-3 rounded-md border border-border bg-card text-foreground
+                  placeholder:text-muted-foreground/50
+                  focus:outline-hidden foucs:ring-2 focus:ring-primary/20 focus:border-primary
+                  transition-all duration-200"
+                  id="name"
+                  name="name"
+                  placeholder="Peter Smith..."
+                  required=""
+                  type="text"
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  for="email"
+                >
+                   
+                  Your Email
+                </label>
+                <input
+                  class="w-full px-4 py-3 rounded-md border border-border bg-card text-foreground
+                  placeholder:text-muted-foreground/50
+                  focus:outline-hidden foucs:ring-2 focus:ring-primary/20 focus:border-primary
+                  transition-all duration-200"
+                  id="email"
+                  name="email"
+                  placeholder="Peter.Smith@gmail.com"
+                  required=""
+                  type="email"
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  for="message"
+                >
+                   
+                  Your Message
+                </label>
+                <textarea
+                  class="w-full px-4 py-3 rounded-md border border-border bg-card text-foreground
+                  placeholder:text-muted-foreground/50
+                  focus:outline-hidden foucs:ring-2 focus:ring-primary/20 focus:border-primary
+                  transition-[color,box-shadow,border-color] duration-200 min-h-[100px]"
+                  id="message"
+                  name="message"
+                  placeholder="Hello, I'd like to talk about..."
+                  required=""
+                />
+              </div>
+              <button
+                class="cosmic-button w-full flex items-center justify-center gap-2"
+                type="submit"
+              >
+                Send Message
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-send"
+                  fill="none"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                  />
+                  <path
+                    d="m21.854 2.147-10.94 10.939"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      aria-atomic="false"
+      aria-label="Notifications alt+T"
+      aria-live="polite"
+      aria-relevant="additions text"
+      tabindex="-1"
+    />
+  </main>
+  <footer
+    class="py-8 border-t border-border/40 bg-background/50"
+  >
+    <div
+      class="container mx-auto px-4"
+    >
+      <div
+        class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground"
+      >
+        <p>
+          © 
+          2026
+           
+          <span
+            class="text-foreground font-medium"
+          >
+            Rui Zeng
+          </span>
+          . All rights reserved.
+        </p>
+        <div
+          class="flex items-center gap-4 flex-wrap justify-center"
+        >
+          <div
+            class="flex items-center gap-1"
+          >
+            <span>
+              Designed & Engineered with
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-heart text-primary fill-primary/20"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+              />
+            </svg>
+            <span>
+              by
+            </span>
+            <a
+              class="text-primary font-semibold hover:underline decoration-primary/30 underline-offset-4 transition-all"
+              href="#hero"
+            >
+              Rui Zeng
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex items-center gap-4"
+        >
+          <div
+            class="flex items-center gap-2"
+          >
+            <div
+              class="w-2 h-2 rounded-full bg-red-500"
+              title="Checking..."
+            />
+            <span
+              class="text-foreground font-medium"
+            >
+              Offline
+            </span>
+          </div>
+          <a
+            class="hover:text-foreground transition-colors"
+            href="/LICENSE"
+            target="_blank"
+          >
+            License
+          </a>
+          <span
+            class="text-border"
+          >
+            |
+          </span>
+          <span
+            class="italic opacity-70 select-none"
+          >
+            AI & Data Specialist
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

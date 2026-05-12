@@ -1,0 +1,183 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AboutSection Component > matches snapshot 1`] = `
+<section
+  class="relative min-h-screen flex flex-col items-center justify-center"
+  id="about"
+>
+  <div
+    class="container mx-auto max-w-4xl text-center"
+  >
+    <h2
+      class="container text-3xl md:text-5xl font-bold mb-12"
+    >
+      About 
+      <span
+        class="text-primary"
+      >
+        Me
+      </span>
+    </h2>
+    <div
+      class="space-y-8 flex-1 flex flex-col justify-evenly"
+    >
+      <h3
+        class="text-3xl md:text-4xl font-semibold animate-fade-in-delay-1"
+      >
+        Designing Scalable Data & AI Systems That Deliver Real Impact
+      </h3>
+      <div
+        class="space-y-6 animate-fade-in-delay-1"
+      >
+        <p
+          class="text-lg text-muted-foreground max-w-3xl mx-auto"
+        >
+          I am a
+           
+          <span
+            class="text-primary font-bold"
+          >
+            Principal Data Engineer
+          </span>
+           and 
+          <span
+            class="text-primary font-bold"
+          >
+            AI Specialist
+          </span>
+           with a 
+          <span
+            class="text-primary font-bold"
+          >
+            PhD
+          </span>
+           in Artificial Intelligence, dedicated to architecting production-grade platforms that turn complex data into measurable business impact. I specialize in navigating high-ambiguity technical environments—deconstructing vague business requirements into scalable, automated engineering roadmaps.
+        </p>
+        <p
+          class="text-lg text-muted-foreground max-w-3xl mx-auto"
+        >
+          My expertise spans the entire product lifecycle, bridging the gap between deep-tier research and high-performance engineering. I lead the design of cloud-native ecosystems on AWS and Snowflake, with a heavy emphasis on DataOps, MLOps, and Database CI/CD. By implementing self-mutating pipelines and metadata-driven orchestration, I have delivered architectural transformations that reduced processing latency by over 90% while ensuring rigorous enterprise-grade governance and security.
+        </p>
+        <p
+          class="text-lg text-muted-foreground max-w-3xl mx-auto"
+        >
+          I thrive at the intersection of Full-Stack Development, Data Engineering, and Data Science. Whether I am architecting LLM-powered applications, building secure identity management with AWS Cognito, or deploying high-volume streaming architectures, my focus remains on creating resilient "zero-to-one" systems. I don't just build models; I deliver end-to-end intelligent products that are stable, secure, and production-ready.
+        </p>
+      </div>
+      <div
+        class="flex flex-wrap justify-center gap-3 pt-4"
+      >
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          Data Engineering
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          Data Science
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          Machine Learning
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          Data Analysis
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          Data Governance
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          MLOps
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          DataOps
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          Cloud Architecture
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          System Design
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          LLM Applications
+        </span>
+        <span
+          class="px-4 py-2 rounded-full border border-primary/50 bg-primary/5
+                hover:shadow-[0_0_15px_rgba(117,0,20,0.5)]
+                hover:bg-primary/10 hover:border-primary
+                text-sm text-primary font-medium
+                transition-all duration-300 animate-float cursor-default"
+        >
+          AI Applications
+        </span>
+      </div>
+      <div
+        class="flex justify-center"
+      >
+        <a
+          class="cosmic-button"
+          href="#contact"
+        >
+          Get In Touch
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;

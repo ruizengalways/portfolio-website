@@ -1,0 +1,653 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SkillsSection Component > matches snapshot 1`] = `
+<section
+  class="py-24 px-4 relative min-h-screen snap-start"
+  id="skills"
+>
+  <div
+    class="container mx-auto max-w-6xl text-center flex flex-col gap-10 2xl:gap-20"
+  >
+    <div
+      class="text-center space-y-4"
+    >
+      <h2
+        class="container text-3xl md:text-5xl font-bold mb-12"
+      >
+         
+        How I Build 
+        <span
+          class="text-primary"
+        >
+          Systems
+        </span>
+      </h2>
+      <p
+        class="text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
+      >
+        The core technologies and frameworks I use to solve complex problems and build modern infrastructure.
+      </p>
+    </div>
+    <div
+      class="columns-1 md:columns-2 gap-10 [column-fill:balance] text-left space-y-10"
+    >
+      <div
+        class="break-inside-avoid"
+      >
+        <div
+          class="flex items-center gap-3 mb-4"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-database h-5 w-5 text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <ellipse
+              cx="12"
+              cy="5"
+              rx="9"
+              ry="3"
+            />
+            <path
+              d="M3 5V19A9 3 0 0 0 21 19V5"
+            />
+            <path
+              d="M3 12A9 3 0 0 0 21 12"
+            />
+          </svg>
+          <h3
+            class="text-xl font-semibold"
+          >
+            Core Languages
+          </h3>
+        </div>
+        <div
+          class="flex flex-wrap gap-3"
+        >
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Python
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            TypeScript
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            JavaScript
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Go
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            C#
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            C++
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            SQL
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            R
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            MATLAB
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Bash / Shell
+          </span>
+        </div>
+      </div>
+      <div
+        class="break-inside-avoid"
+      >
+        <div
+          class="flex items-center gap-3 mb-4"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-database h-5 w-5 text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <ellipse
+              cx="12"
+              cy="5"
+              rx="9"
+              ry="3"
+            />
+            <path
+              d="M3 5V19A9 3 0 0 0 21 19V5"
+            />
+            <path
+              d="M3 12A9 3 0 0 0 21 12"
+            />
+          </svg>
+          <h3
+            class="text-xl font-semibold"
+          >
+            Data Platforms
+          </h3>
+        </div>
+        <div
+          class="flex flex-wrap gap-3"
+        >
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Kafka
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Spark
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Airflow
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            DBT
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Prefect
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            ETL / ELT
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Data Modelling (SCD2, Data Vault)
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Data Lakes & Lakehouse
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Parquet
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            PyArrow
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Pandas
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            SQLAlchemy
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            CDC
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Hive
+          </span>
+        </div>
+      </div>
+      <div
+        class="break-inside-avoid"
+      >
+        <div
+          class="flex items-center gap-3 mb-4"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-database h-5 w-5 text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <ellipse
+              cx="12"
+              cy="5"
+              rx="9"
+              ry="3"
+            />
+            <path
+              d="M3 5V19A9 3 0 0 0 21 19V5"
+            />
+            <path
+              d="M3 12A9 3 0 0 0 21 12"
+            />
+          </svg>
+          <h3
+            class="text-xl font-semibold"
+          >
+            Databases & Warehouses
+          </h3>
+        </div>
+        <div
+          class="flex flex-wrap gap-3"
+        >
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            PostgreSQL
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            MySQL
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Greenplum
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Snowflake
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Snowpark
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Google BigQuery
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            AWS Redshift
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Microsoft Fabric
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            NoSQL
+          </span>
+        </div>
+      </div>
+      <div
+        class="break-inside-avoid"
+      >
+        <div
+          class="flex items-center gap-3 mb-4"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-cpu h-5 w-5 text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 20v2"
+            />
+            <path
+              d="M12 2v2"
+            />
+            <path
+              d="M17 20v2"
+            />
+            <path
+              d="M17 2v2"
+            />
+            <path
+              d="M2 12h2"
+            />
+            <path
+              d="M2 17h2"
+            />
+            <path
+              d="M2 7h2"
+            />
+            <path
+              d="M20 12h2"
+            />
+            <path
+              d="M20 17h2"
+            />
+            <path
+              d="M20 7h2"
+            />
+            <path
+              d="M7 20v2"
+            />
+            <path
+              d="M7 2v2"
+            />
+            <rect
+              height="16"
+              rx="2"
+              width="16"
+              x="4"
+              y="4"
+            />
+            <rect
+              height="8"
+              rx="1"
+              width="8"
+              x="8"
+              y="8"
+            />
+          </svg>
+          <h3
+            class="text-xl font-semibold"
+          >
+            Cloud & Infrastructure
+          </h3>
+        </div>
+        <div
+          class="flex flex-wrap gap-3"
+        >
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            AWS (S3, Lambda, EKS, Athena, EventBridge, SNS, Glue)
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Azure (Data Factory, Synapse, Databricks)
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            GCP (BigQuery, Dataflow, Pub/Sub, Cloud Functions)
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Terraform
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            CloudFormation
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            VPC & Networking
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Cloud Monitoring (CloudWatch, Stackdriver)
+          </span>
+        </div>
+      </div>
+      <div
+        class="break-inside-avoid"
+      >
+        <div
+          class="flex items-center gap-3 mb-4"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-brain-circuit h-5 w-5 text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"
+            />
+            <path
+              d="M9 13a4.5 4.5 0 0 0 3-4"
+            />
+            <path
+              d="M6.003 5.125A3 3 0 0 0 6.401 6.5"
+            />
+            <path
+              d="M3.477 10.896a4 4 0 0 1 .585-.396"
+            />
+            <path
+              d="M6 18a4 4 0 0 1-1.967-.516"
+            />
+            <path
+              d="M12 13h4"
+            />
+            <path
+              d="M12 18h6a2 2 0 0 1 2 2v1"
+            />
+            <path
+              d="M12 8h8"
+            />
+            <path
+              d="M16 8V5a2 2 0 0 1 2-2"
+            />
+            <circle
+              cx="16"
+              cy="13"
+              r=".5"
+            />
+            <circle
+              cx="18"
+              cy="3"
+              r=".5"
+            />
+            <circle
+              cx="20"
+              cy="21"
+              r=".5"
+            />
+            <circle
+              cx="20"
+              cy="8"
+              r=".5"
+            />
+          </svg>
+          <h3
+            class="text-xl font-semibold"
+          >
+            Machine Learning & AI
+          </h3>
+        </div>
+        <div
+          class="flex flex-wrap gap-3"
+        >
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            PyTorch
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            TensorFlow
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Scikit-learn
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            LLMs & AI Applications
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Computer Vision
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Natural Language Processing
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Deep Learning
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Feature Engineering
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Statistical Modelling
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            SageMaker
+          </span>
+        </div>
+      </div>
+      <div
+        class="break-inside-avoid"
+      >
+        <div
+          class="flex items-center gap-3 mb-4"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-rocket h-5 w-5 text-primary"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"
+            />
+            <path
+              d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"
+            />
+            <path
+              d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"
+            />
+            <path
+              d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"
+            />
+          </svg>
+          <h3
+            class="text-xl font-semibold"
+          >
+            Platform Engineering & DevOps
+          </h3>
+        </div>
+        <div
+          class="flex flex-wrap gap-3"
+        >
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Docker
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Kubernetes
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            CI/CD (GitHub Actions, Jenkins)
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Linux
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Monitoring & Observability
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Infrastructure as Code
+          </span>
+          <span
+            class="px-4 py-2 rounded-full border border-border text-sm text-muted-foreground hover:bg-primary/10 transition"
+          >
+            Testing (PyTest)
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

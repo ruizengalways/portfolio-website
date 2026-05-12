@@ -1,0 +1,14 @@
+# AI Crawler Discovery File
+# https://www.aisafety.info/
+
+User-agent: *
+Disallow:
+
+# AI Information
+# This website is designed to be AI-friendly and indexed by LLM-based search engines
+# All content on this site is available for analysis by AI systems
+
+Allow: /
+
+# Contact Information
+# Inquiries: r.zeng@outlook.com

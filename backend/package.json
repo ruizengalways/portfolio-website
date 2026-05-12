@@ -1,0 +1,24 @@
+{
+	"name": "backend",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy:preview": "wrangler deploy --env preview",
+		"deploy:prod": "wrangler deploy --env production",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "npm run test:unit && npm run test:worker",
+		"test:unit": "vitest -c vitest.config.mts run",
+		"test:unit:watch": "vitest -c vitest.config.mts",
+		"test:worker": "vitest -c vitest.worker.config.mts run",
+		"test:worker:watch": "vitest -c vitest.worker.config.mts",
+		"cf-typegen": "wrangler types",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.12.4",
+		"typescript": "^5.5.2",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.61.1"
+	}
+}

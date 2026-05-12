@@ -1,0 +1,92 @@
+{
+  "site_name": "Dr. Rui Zeng Portfolio",
+  "author": "Rui Zeng",
+  "url": "https://ruizeng.dev/",
+  "description": "PhD in Artificial Intelligence showcasing expertise in full-stack development, data engineering, and scalable system design",
+  "type": "portfolio",
+  "language": "en",
+  "last_updated": "2026-04-22T10:45:18.277Z",
+  "topics": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Full Stack Development",
+    "Data Engineering",
+    "System Design",
+    "LLM Applications",
+    "Cloud Architecture",
+    "TypeScript",
+    "Python",
+    "React"
+  ],
+  "social_profiles": {
+    "linkedin": "https://www.linkedin.com/in/rui-zeng/",
+    "github": "https://github.com/ruizengalways",
+    "email": "r.zeng@outlook.com"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Hero Section",
+      "description": "Introduction and professional headline",
+      "url": "/#hero"
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "description": "Background and professional summary",
+      "url": "/#about"
+    },
+    {
+      "id": "expertise",
+      "title": "Expertise Areas",
+      "description": "Core competencies and technical specialties",
+      "url": "/#expertise"
+    },
+    {
+      "id": "research",
+      "title": "Research & Publications",
+      "description": "Academic and professional research contributions",
+      "url": "/#research"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "description": "Showcased projects and technical work",
+      "url": "/#projects"
+    },
+    {
+      "id": "skills",
+      "title": "Technical Skills",
+      "description": "Programming languages, frameworks, and tools",
+      "url": "/#skills"
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "description": "Get in touch and send messages",
+      "url": "/#contact"
+    }
+  ],
+  "metadata": {
+    "ai_friendly": true,
+    "llm_optimized": true,
+    "structured_data": "JSON-LD",
+    "schema_types": [
+      "Person",
+      "WebPage",
+      "ItemList"
+    ],
+    "robots_txt": true,
+    "sitemap_xml": true,
+    "semantic_html": true
+  },
+  "crawlers_allowed": [
+    "GPTBot",
+    "PerplexityBot",
+    "anthropic-ai",
+    "claude-web",
+    "CCBot",
+    "Googlebot",
+    "Bingbot"
+  ]
+}
