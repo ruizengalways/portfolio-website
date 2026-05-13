@@ -56,7 +56,7 @@ describe("SkillsSection Component", () => {
       "Data Platforms",
       "Databases & Warehouses",
       "Cloud & Infrastructure",
-      "Machine Learning & AI",
+      "System & AI",
       "Platform Engineering & DevOps",
     ];
 

@@ -46,6 +46,7 @@
 			"vars": {
 				"ENVIRONMENT": "test",
 				"FRONTEND_URL": "http://localhost:3000",
+				"ADMIN_API_KEY": "test-key-local-123",
 			},
 			"kv_namespaces": [
 				{ "binding": "MESSAGES_KV", "id": "test-messages-kv-id" },

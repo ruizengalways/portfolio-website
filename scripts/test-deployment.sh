@@ -6,8 +6,10 @@
 set -e
 
 # Configuration
-BACKEND_URL="${BACKEND_URL:-https://your-worker.workers.dev}"
-FRONTEND_URL="${FRONTEND_URL:-https://your-pages.pages.dev}"
+BACKEND_URL="${BACKEND_URL:-https://api.ruizeng.dev}"
+FRONTEND_URL="${FRONTEND_URL:-https://ruizeng.dev}"
+SKIP_BACKEND="${SKIP_BACKEND:-0}"
+SKIP_FRONTEND="${SKIP_FRONTEND:-0}"
 
 echo "🚀 Starting deployment tests..."
 echo "Backend URL: $BACKEND_URL"
@@ -41,75 +43,82 @@ test_endpoint() {
     fi
 }
 
-# Test Backend Endpoints
-echo "🔧 Testing Backend API..."
+if [ "$SKIP_BACKEND" != "1" ]; then
+    # Test Backend Endpoints
+    echo "🔧 Testing Backend API..."
 
-# Health check
-test_endpoint "$BACKEND_URL/health" 200
+    # Health check
+    test_endpoint "$BACKEND_URL/health" 200
 
-# Visit endpoint (GET)
-test_endpoint "$BACKEND_URL/visit" 200
+    # Visit endpoint (GET)
+    test_endpoint "$BACKEND_URL/visit" 200
 
-# Visit endpoint (POST)
-visit_data='{"page": "/test", "timestamp": "'$(date -Iseconds)'"}'
-test_endpoint "$BACKEND_URL/visit" 200 POST "$visit_data"
+    # Visit endpoint (POST)
+    visit_data='{"page": "/test", "timestamp": "'$(date -Iseconds)'"}'
+    test_endpoint "$BACKEND_URL/visit" 201 POST "$visit_data"
 
-# Contact endpoint (valid data)
-contact_data='{"name": "Test User", "email": "test@example.com", "message": "This is a test message from deployment testing."}'
-test_endpoint "$BACKEND_URL/contact" 201 POST "$contact_data"
+    # Contact endpoint (invalid data - short message, safe: no real data created)
+    invalid_contact_data='{"name": "Test", "email": "test@example.com", "message": "Hi"}'
+    test_endpoint "$BACKEND_URL/contact" 400 POST "$invalid_contact_data"
 
-# Contact endpoint (invalid data - short message)
-invalid_contact_data='{"name": "Test", "email": "test@example.com", "message": "Hi"}'
-test_endpoint "$BACKEND_URL/contact" 400 POST "$invalid_contact_data"
+    # Admin endpoint (should be protected)
+    test_endpoint "$BACKEND_URL/admin/stats" 401
 
-# Admin endpoint (should be protected)
-test_endpoint "$BACKEND_URL/admin/stats" 401
+    echo
 
-echo
+    # Test security headers on backend
+    echo "🔒 Testing Security Headers..."
 
-# Test Frontend
-echo "🌐 Testing Frontend..."
+    security_response=$(curl -s -I "$BACKEND_URL/health")
+    echo "Security headers check:"
+    echo "$security_response" | grep -E "(X-Content-Type-Options|X-Frame-Options|X-XSS-Protection|Referrer-Policy|Strict-Transport-Security)" || echo "Some security headers missing"
 
-# Test if frontend loads
-test_endpoint "$FRONTEND_URL" 200
+    echo
 
-# Test security headers on backend
-echo "🔒 Testing Security Headers..."
+    # Test CORS
+    echo "🌍 Testing CORS..."
 
-security_response=$(curl -s -I "$BACKEND_URL/health")
-echo "Security headers check:"
-echo "$security_response" | grep -E "(X-Content-Type-Options|X-Frame-Options|X-XSS-Protection|Referrer-Policy|Strict-Transport-Security)" || echo "Some security headers missing"
+    cors_origin="$FRONTEND_URL"
+    if [ "$SKIP_FRONTEND" = "1" ]; then
+        cors_origin="${PRODUCTION_FRONTEND_URL:-https://ruizeng.dev}"
+    fi
 
-echo
+    cors_response=$(curl -si -H "Origin: $cors_origin" -H "Access-Control-Request-Method: POST" -X OPTIONS "$BACKEND_URL/contact")
+    if echo "$cors_response" | grep -qi "access-control-allow-origin"; then
+        echo "✅ CORS headers present"
+    else
+        echo "❌ CORS headers missing"
+    fi
 
-# Test CORS
-echo "🌍 Testing CORS..."
+    echo
 
-cors_response=$(curl -s -H "Origin: $FRONTEND_URL" -H "Access-Control-Request-Method: POST" -X OPTIONS "$BACKEND_URL/contact")
-if echo "$cors_response" | grep -q "Access-Control-Allow-Origin"; then
-    echo "✅ CORS headers present"
-else
-    echo "❌ CORS headers missing"
+    # Performance test
+    echo "⚡ Basic Performance Test..."
+
+    # Test response time
+    start_time=$(date +%s%N)
+    curl -s "$BACKEND_URL/health" > /dev/null
+    end_time=$(date +%s%N)
+    response_time=$(( (end_time - start_time) / 1000000 ))  # Convert to milliseconds
+
+    if [ "$response_time" -lt 1000 ]; then
+        echo "✅ Response time: ${response_time}ms (Good)"
+    else
+        echo "⚠️  Response time: ${response_time}ms (Slow)"
+    fi
+
+    echo
 fi
 
-echo
+if [ "$SKIP_FRONTEND" != "1" ]; then
+    # Test Frontend
+    echo "🌐 Testing Frontend..."
 
-# Performance test
-echo "⚡ Basic Performance Test..."
+    # Test if frontend loads
+    test_endpoint "$FRONTEND_URL" 200
 
-# Test response time
-start_time=$(date +%s%N)
-curl -s "$BACKEND_URL/health" > /dev/null
-end_time=$(date +%s%N)
-response_time=$(( (end_time - start_time) / 1000000 ))  # Convert to milliseconds
-
-if [ "$response_time" -lt 1000 ]; then
-    echo "✅ Response time: ${response_time}ms (Good)"
-else
-    echo "⚠️  Response time: ${response_time}ms (Slow)"
+    echo
 fi
-
-echo
 echo "🎉 Deployment testing completed!"
 echo
 echo "Manual checks you should perform:"

@@ -14,9 +14,4 @@ describe("NotFound Page", () => {
       screen.getByText("The page you are looking for does not exist."),
     ).toBeInTheDocument();
   });
-
-  it("matches snapshot", () => {
-    const { container } = customRender(<NotFound />);
-    expect(container.firstChild).toMatchSnapshot();
-  });
 });

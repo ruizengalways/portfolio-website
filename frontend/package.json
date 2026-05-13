@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "ci": "npm run lint && npm run test:ci && npm run build",
     "dev": "vite",
     "generate:sitemap": "npx tsx scripts/generate-sitemap.ts",
     "generate:metadata": "npx tsx scripts/generate-metadata.ts",
@@ -20,7 +21,8 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "preview": "vite preview",
-    "deploy:preview": "npm run build:preview && wrangler pages deploy dist --project-name=dr-rui-zeng-portfolio --branch preview"
+    "deploy:preview": "npm run build:preview && wrangler pages deploy dist --project-name=${CLOUDFLARE_PAGES_PROJECT:-dr-rui-zeng-portfolio} --branch preview",
+    "deploy:prod": "npm run build && wrangler pages deploy dist --project-name=${CLOUDFLARE_PAGES_PROJECT:-dr-rui-zeng-portfolio} --branch main"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
