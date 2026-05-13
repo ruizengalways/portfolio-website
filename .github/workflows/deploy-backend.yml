@@ -1,17 +1,30 @@
 name: Deploy Backend
 
+env:
+  PRODUCTION_BACKEND_URL: ${{ vars.PRODUCTION_BACKEND_URL || 'https://api.ruizeng.dev' }}
+
 on:
   push:
     branches:
       - main
     paths:
-      - 'backend/**'
-      - '.github/workflows/deploy-backend.yml'
+      - "backend/**"
+      - ".github/workflows/deploy-backend.yml"
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: production
+      url: ${{ vars.PRODUCTION_BACKEND_URL || 'https://api.ruizeng.dev' }}
+    concurrency:
+      group: backend-production
+      cancel-in-progress: false
     defaults:
       run:
         working-directory: backend
@@ -23,18 +36,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: "22"
+          cache: "npm"
           cache-dependency-path: backend/package-lock.json
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm run test
-
-      - name: Type check
-        run: npm run typecheck
+      - name: Run backend CI
+        run: npm run ci
 
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
@@ -42,4 +52,10 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           workingDirectory: backend
-          command: deploy
+          command: deploy --env production
+
+      - name: Smoke test production backend
+        env:
+          BACKEND_URL: ${{ env.PRODUCTION_BACKEND_URL }}
+          SKIP_FRONTEND: "1"
+        run: bash ../scripts/test-deployment.sh

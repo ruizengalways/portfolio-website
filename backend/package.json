@@ -3,6 +3,8 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
+		"ci": "npm run cf-typegen && npm run ci:check-types-committed && npm run test && npm run typecheck",
+		"ci:check-types-committed": "git diff --exit-code worker-configuration.d.ts || (echo 'ERROR: worker-configuration.d.ts is out of date. Run npm run cf-typegen and commit the result.' && exit 1)",
 		"deploy:preview": "wrangler deploy --env preview",
 		"deploy:prod": "wrangler deploy --env production",
 		"dev": "wrangler dev",

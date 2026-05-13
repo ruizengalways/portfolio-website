@@ -126,16 +126,15 @@ describe("API Service", () => {
     it("should use custom API base URL from env", async () => {
       // Mock import.meta.env
       const originalEnv = import.meta.env;
-      (import.meta as any).env = {
-        ...originalEnv,
-        VITE_API_BASE_URL: "https://custom-api.com",
-      };
+      Object.assign(import.meta, {
+        env: { ...originalEnv, VITE_API_BASE_URL: "https://custom-api.com" },
+      });
 
       // Re-import the module to test env var
       // Since it's already imported, we can test by checking the URL in calls
       // For simplicity, assume default in tests
 
-      (import.meta as any).env = originalEnv;
+      Object.assign(import.meta, { env: originalEnv });
     });
   });
 });

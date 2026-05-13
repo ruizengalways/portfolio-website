@@ -14,7 +14,11 @@ describe("useRecordVisit hook", () => {
   });
 
   it("should call recordVisit on mount", async () => {
-    (recordVisit as any).mockResolvedValue(undefined);
+    vi.mocked(recordVisit).mockResolvedValue({
+      totalVisits: 0,
+      totalMessages: 0,
+      lastUpdated: "",
+    });
 
     renderHook(() => useRecordVisit());
 
@@ -25,7 +29,7 @@ describe("useRecordVisit hook", () => {
 
   it("should handle API errors gracefully", async () => {
     const consoleSpy = vi.spyOn(console, "debug").mockImplementation(() => {});
-    (recordVisit as any).mockRejectedValue(new Error("API error"));
+    vi.mocked(recordVisit).mockRejectedValue(new Error("API error"));
 
     renderHook(() => useRecordVisit());
 
@@ -42,7 +46,11 @@ describe("useRecordVisit hook", () => {
   });
 
   it("should not call recordVisit multiple times on re-renders", () => {
-    (recordVisit as any).mockResolvedValue(undefined);
+    vi.mocked(recordVisit).mockResolvedValue({
+      totalVisits: 0,
+      totalMessages: 0,
+      lastUpdated: "",
+    });
 
     const { rerender } = renderHook(() => useRecordVisit());
 

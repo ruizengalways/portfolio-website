@@ -17,6 +17,7 @@ A modern, full-stack portfolio website showcasing expertise in web development, 
 This portfolio is **explicitly optimized for AI-based search engines and LLM crawlers** including GPTBot, Perplexity, Claude-web, and other AI systems:
 
 ### AI Discoverability Features
+
 - ✅ **Enhanced Meta Tags**: Comprehensive meta descriptions, OpenGraph, and Twitter cards
 - ✅ **JSON-LD Structured Data**: Schema.org markup for Person, WebPage, and ItemList types
 - ✅ **LLM-Friendly Robots.txt**: Explicit allowance for AI crawlers (GPTBot, Perplexity, Anthropic)
@@ -27,6 +28,7 @@ This portfolio is **explicitly optimized for AI-based search engines and LLM cra
 - ✅ **LLM Content Summary**: `/LLM-PORTFOLIO-SUMMARY.md` for AI understanding
 
 ### How to Use This for AI Indexing
+
 ```bash
 # AI crawlers will automatically discover:
 - robots.txt → Crawling permissions
@@ -40,7 +42,9 @@ This portfolio is **explicitly optimized for AI-based search engines and LLM cra
 **Result**: Better ranking in AI-based search engines like Perplexity, SearchGPT, and other LLM-powered search platforms.
 
 ### For AI System Developers
+
 If you're building an AI system that indexes portfolios, you can:
+
 1. Check `robots.txt` for crawling rules
 2. Parse JSON-LD from `<head>` for structured data
 3. Read `ai-discovery.json` for metadata
@@ -132,6 +136,7 @@ For an **in-depth explanation** of the 6-layer architecture, dependency injectio
 👉 **[See ARCHITECTURE.md](./ARCHITECTURE.md)** ← Complete guide with diagrams and examples
 
 Covers:
+
 - Why each layer is separated
 - How layers connect and communicate
 - Dependency Injection pattern
@@ -143,19 +148,19 @@ Covers:
 
 ## Technology Stack
 
-| Layer | Technology | Version | Purpose |
-|-------|------------|---------|---------|
-| **Frontend** | React | 18.x | Component-based UI framework |
-| **Build Tool** | Vite | Latest | Fast development and optimized builds |
-| **Language** | TypeScript | 5.x | Type-safe JavaScript |
-| **Styling** | CSS Modules | - | Scoped component styling |
-| **Backend Runtime** | Cloudflare Workers | - | Serverless edge computing |
-| **Web Framework** | Hono | Latest | Lightweight web framework for Workers |
-| **Validation** | Zod | Latest | Runtime type validation |
-| **Testing** | Vitest | Latest | Fast unit testing with Workers pool |
-| **Deployment** | Wrangler | Latest | Cloudflare Workers CLI |
-| **Package Manager** | npm | - | Dependency management |
-| **Linting** | ESLint | - | Code quality enforcement |
+| Layer               | Technology         | Version | Purpose                               |
+| ------------------- | ------------------ | ------- | ------------------------------------- |
+| **Frontend**        | React              | 18.x    | Component-based UI framework          |
+| **Build Tool**      | Vite               | Latest  | Fast development and optimized builds |
+| **Language**        | TypeScript         | 5.x     | Type-safe JavaScript                  |
+| **Styling**         | CSS Modules        | -       | Scoped component styling              |
+| **Backend Runtime** | Cloudflare Workers | -       | Serverless edge computing             |
+| **Web Framework**   | Hono               | Latest  | Lightweight web framework for Workers |
+| **Validation**      | Zod                | Latest  | Runtime type validation               |
+| **Testing**         | Vitest             | Latest  | Fast unit testing with Workers pool   |
+| **Deployment**      | Wrangler           | Latest  | Cloudflare Workers CLI                |
+| **Package Manager** | npm                | -       | Dependency management                 |
+| **Linting**         | ESLint             | -       | Code quality enforcement              |
 
 ## Features
 
@@ -173,16 +178,19 @@ Covers:
 ## Screenshots
 
 ### Homepage
+
 ![Homepage Screenshot](screenshots/homepage.png)
-*Main landing page showcasing projects and skills*
+_Main landing page showcasing projects and skills_
 
 ### Contact Form
+
 ![Contact Form Screenshot](screenshots/contact.png)
-*Secure contact form with validation*
+_Secure contact form with validation_
 
 ### Mobile View
+
 ![Mobile View Screenshot](screenshots/mobile.png)
-*Responsive design on mobile devices*
+_Responsive design on mobile devices_
 
 ## Prerequisites
 
@@ -213,6 +221,7 @@ open http://localhost:5173
 ### Manual Setup
 
 1. **Clone and Install**
+
    ```bash
    git clone <your-repo-url>
    cd portfolio-website
@@ -222,6 +231,7 @@ open http://localhost:5173
    ```
 
 2. **Start Backend**
+
    ```bash
    cd backend
    npm run dev
@@ -229,6 +239,7 @@ open http://localhost:5173
    ```
 
 3. **Start Frontend** (in new terminal)
+
    ```bash
    cd frontend
    npm run dev
@@ -295,12 +306,14 @@ npm run typecheck:all
 ### Backend (Cloudflare Workers)
 
 1. **Authenticate**
+
    ```bash
    cd backend
    npx wrangler auth login
    ```
 
 2. **Deploy**
+
    ```bash
    npm run deploy
    ```
@@ -328,39 +341,43 @@ The frontend can be deployed to any static hosting service:
 The backend provides a RESTful API built with Hono and TypeScript.
 
 ### Base URL
+
 ```
 https://your-worker.your-subdomain.workers.dev
 ```
 
 ### Endpoints
 
-| Method | Endpoint | Description | Request Body | Response |
-|--------|----------|-------------|--------------|----------|
-| `GET` | `/health` | Health check | - | `200 OK` |
-| `POST` | `/contact` | Submit contact form | `ContactInput` | `201 Created` |
-| `POST` | `/visit` | Record page visit | `VisitInput` | `200 OK` |
-| `GET` | `/admin/stats` | Get admin statistics | - | `AdminStats` |
+| Method | Endpoint       | Description          | Request Body   | Response      |
+| ------ | -------------- | -------------------- | -------------- | ------------- |
+| `GET`  | `/health`      | Health check         | -              | `200 OK`      |
+| `POST` | `/contact`     | Submit contact form  | `ContactInput` | `201 Created` |
+| `POST` | `/visit`       | Record page visit    | `VisitInput`   | `200 OK`      |
+| `GET`  | `/admin/stats` | Get admin statistics | -              | `AdminStats`  |
 
 ### Request/Response Schemas
 
 #### ContactInput
+
 ```typescript
 {
-  name: string;      // 1-100 characters
-  email: string;     // Valid email format
-  message: string;   // 10-1000 characters
+  name: string; // 1-100 characters
+  email: string; // Valid email format
+  message: string; // 10-1000 characters
 }
 ```
 
 #### VisitInput
+
 ```typescript
 {
-  page: string;      // Page path
+  page: string; // Page path
   timestamp: string; // ISO date string
 }
 ```
 
 #### AdminStats
+
 ```typescript
 {
   totalVisits: number;
@@ -372,13 +389,15 @@ https://your-worker.your-subdomain.workers.dev
 ### Error Responses
 
 All errors follow a consistent format:
+
 ```typescript
 {
-  error: string;  // Error message
+  error: string; // Error message
 }
 ```
 
 Common HTTP status codes:
+
 - `400 Bad Request`: Validation errors
 - `429 Too Many Requests`: Rate limited
 - `500 Internal Server Error`: Server errors
@@ -401,6 +420,7 @@ npm run test:watch
 ```
 
 Test coverage includes:
+
 - Handler validation
 - Service business logic
 - Repository operations
@@ -551,8 +571,8 @@ The `wrangler.jsonc` file contains all Cloudflare-specific configuration:
   "main": "src/index.ts",
   "compatibility_date": "2024-01-01",
   "observability": {
-    "enabled": true
-  }
+    "enabled": true,
+  },
 }
 ```
 
@@ -585,6 +605,7 @@ Built with ❤️ using modern web technologies. This portfolio demonstrates exp
 For questions or opportunities, feel free to reach out through the contact form!
 
 **Contact Information:**
+
 - **Name**: Rui Zeng
 - **Email**: r.zeng@Outlook.com
 - **LinkedIn**: https://www.linkedin.com/in/rui-zeng/

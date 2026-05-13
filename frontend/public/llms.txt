@@ -46,4 +46,4 @@
 - **Training Allowed:** Yes
 
 ---
-*Generated automatically from portfolioMetadata on 2026-04-22*
+*Generated automatically from portfolioMetadata on 2026-05-13*
