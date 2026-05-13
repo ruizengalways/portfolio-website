@@ -6,7 +6,7 @@ export default defineWorkersConfig({
 		setupFiles: ['./test/helpers/vitest-worker-banner.ts'],
 		poolOptions: {
 			workers: {
-				wrangler: { configPath: './wrangler.jsonc' },
+				wrangler: { configPath: './wrangler.jsonc', environment: 'test' },
 			},
 		},
 	},
