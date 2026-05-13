@@ -6,7 +6,17 @@
 [![Build: Vite](https://img.shields.io/badge/Build-Vite-264653?logo=vite&logoColor=ffd166)](https://vite.dev/)
 [![Tests: Vitest + Playwright](https://img.shields.io/badge/Tests-Vitest%20%2B%20Playwright-2a9d8f)](https://vitest.dev/)
 
-This repository is a full-stack portfolio platform built to show staff-level engineering judgment across product UI, API design, edge deployment, runtime safeguards, testing, and delivery automation.
+This repository contains the personal portfolio platform for Dr. Rui Zeng, focused on demonstrating staff-level full-stack engineering across product delivery, backend architecture, edge deployment, runtime safeguards, testing, and operational clarity.
+
+## Profile
+
+- Name: Dr. Rui Zeng
+- Title: AI Engineer, Full Stack Developer, Data Engineer, Data Scientist, System Designer
+- Summary: PhD-qualified engineer building production-grade AI, data, and full-stack systems.
+- Website: https://ruizeng.dev/
+- LinkedIn: https://www.linkedin.com/in/rui-zeng/
+- GitHub: https://github.com/ruizengalways
+- Email: r.zeng@outlook.com
 
 ## Recruiter Quick Read
 
