@@ -8,7 +8,7 @@ const projects = [
       "A high-performance personal infrastructure project designed with a systems-thinking approach. Built using React and TailwindCSS, this platform integrates a modern CI/CD pipeline via GitHub Actions and Cloudflare, showcasing a production-grade implementation of web architecture, responsive design, and automated deployment.",
     image: "/projects/portfolio-website-project-cover.png",
     tags: ["React", "TailwindCSS", "Cloudflare", "CI/CD"],
-    demoUrl: "https://ruizeng-lucky.workers.dev",
+    demoUrl: "https://ruizeng.dev",
     githubUrl: "https://github.com/ruizengalways/portfolio-website",
   },
 ];
