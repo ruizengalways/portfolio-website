@@ -89,7 +89,7 @@ exports[`ProjectsSection Component > matches snapshot 1`] = `
             >
               <a
                 class="text-foreground/80 hover:text-primary transition-colors duration-300"
-                href="https://ruizeng-lucky.workers.dev"
+                href="https://ruizeng.dev"
                 target="_blank"
               >
                 <svg
