@@ -11,6 +11,21 @@ const projects = [
     demoUrl: "https://ruizeng.dev",
     githubUrl: "https://github.com/ruizengalways/portfolio-website",
   },
+  {
+    id: 2,
+    title: "DecisionOS",
+    description:
+      "An enterprise decision intelligence concept that shows how an LLM-based decision layer can combine structured data, semantic metrics, policies, documents, and model signals into governed, explainable next-step recommendations.",
+    image: "/projects/decision-os-project-cover.png",
+    tags: [
+      "LLM Systems",
+      "Decision Intelligence",
+      "Enterprise AI",
+      "Governed AI",
+    ],
+    demoUrl: "https://decision-os.ruizeng.dev/",
+    githubUrl: "https://ruizeng.dev",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -34,7 +49,7 @@ export const ProjectsSection = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex h-full flex-col"
             >
               <div className="h-48 overflow-hidden">
                 <img
@@ -44,7 +59,7 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="flex flex-1 flex-col p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
@@ -60,11 +75,13 @@ export const ProjectsSection = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
+                <div className="mt-auto flex items-center justify-between pt-2">
                   <div className="flex space-x-3">
                     <a
                       href={project.demoUrl}
                       target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${project.title} demo`}
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
@@ -72,6 +89,8 @@ export const ProjectsSection = () => {
                     <a
                       href={project.githubUrl}
                       target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${project.title} repository`}
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
@@ -87,6 +106,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/ruizengalways"
           >
             Check My Github <ArrowRight size={16} />

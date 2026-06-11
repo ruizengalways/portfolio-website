@@ -40,22 +40,37 @@ describe("ProjectsSection Component", () => {
     );
     expect(grid).toBeInTheDocument();
 
-    // Should have one project card
+    // Should have two project cards
     const cards = document.querySelectorAll(".bg-card.rounded-lg");
-    expect(cards).toHaveLength(1);
+    expect(cards).toHaveLength(2);
   });
 
-  it("renders project image with correct attributes", () => {
+  it("renders project images with correct attributes", () => {
     customRender(<ProjectsSection />);
 
-    const image = document.querySelector("img");
-    expect(image).toBeInTheDocument();
-    expect(image).toHaveAttribute(
+    const portfolioImage = screen.getByAltText("Portfolio Website");
+    expect(portfolioImage).toBeInTheDocument();
+    expect(portfolioImage).toHaveAttribute(
       "src",
       "/projects/portfolio-website-project-cover.png",
     );
-    expect(image).toHaveAttribute("alt", "Portfolio Website");
-    expect(image).toHaveClass(
+
+    const decisionOsImage = screen.getByAltText("DecisionOS");
+    expect(decisionOsImage).toBeInTheDocument();
+    expect(decisionOsImage).toHaveAttribute(
+      "src",
+      "/projects/decision-os-project-cover.png",
+    );
+
+    expect(portfolioImage).toHaveClass(
+      "w-full",
+      "h-full",
+      "object-cover",
+      "transition-transform",
+      "duration-500",
+      "group-hover:scale-110",
+    );
+    expect(decisionOsImage).toHaveClass(
       "w-full",
       "h-full",
       "object-cover",
@@ -68,7 +83,16 @@ describe("ProjectsSection Component", () => {
   it("renders project tags correctly", () => {
     customRender(<ProjectsSection />);
 
-    const tags = ["React", "TailwindCSS", "Cloudflare", "CI/CD"];
+    const tags = [
+      "React",
+      "TailwindCSS",
+      "Cloudflare",
+      "CI/CD",
+      "LLM Systems",
+      "Decision Intelligence",
+      "Enterprise AI",
+      "Governed AI",
+    ];
 
     tags.forEach((tag) => {
       const tagElement = screen.getByText(tag);
@@ -85,9 +109,9 @@ describe("ProjectsSection Component", () => {
       );
     });
 
-    // Check that there are 4 tags
+    // Check that there are 8 tags
     const tagElements = document.querySelectorAll("span.px-2.py-1");
-    expect(tagElements).toHaveLength(4);
+    expect(tagElements).toHaveLength(8);
   });
 
   it("renders project title and description", () => {
@@ -102,18 +126,43 @@ describe("ProjectsSection Component", () => {
     );
     expect(description).toBeInTheDocument();
     expect(description).toHaveClass("text-muted-foreground", "text-sm", "mb-4");
+
+    const decisionOsTitle = screen.getByRole("heading", { name: "DecisionOS" });
+    expect(decisionOsTitle).toBeInTheDocument();
+
+    const decisionOsDescription = screen.getByText(
+      /An enterprise decision intelligence concept that shows how an LLM-based decision layer/,
+    );
+    expect(decisionOsDescription).toBeInTheDocument();
   });
 
   it("renders project links with correct attributes", () => {
     customRender(<ProjectsSection />);
 
-    const githubLink = screen.getByRole("link", { name: /github/i });
-    expect(githubLink).toBeInTheDocument();
-    expect(githubLink).toHaveAttribute(
+    const portfolioDemoLink = screen.getByRole("link", {
+      name: "Portfolio Website demo",
+    });
+    expect(portfolioDemoLink).toHaveAttribute("href", "https://ruizeng.dev");
+    expect(portfolioDemoLink).toHaveAttribute("target", "_blank");
+
+    const decisionOsDemoLink = screen.getByRole("link", {
+      name: "DecisionOS demo",
+    });
+    expect(decisionOsDemoLink).toHaveAttribute(
       "href",
-      "https://github.com/ruizengalways",
+      "https://decision-os.ruizeng.dev/",
     );
-    expect(githubLink).toHaveAttribute("target", "_blank");
+    expect(decisionOsDemoLink).toHaveAttribute("target", "_blank");
+
+    const decisionOsRepositoryLink = screen.getByRole("link", {
+      name: "DecisionOS repository",
+    });
+    expect(decisionOsRepositoryLink).toBeInTheDocument();
+    expect(decisionOsRepositoryLink).toHaveAttribute(
+      "href",
+      "https://ruizeng.dev",
+    );
+    expect(decisionOsRepositoryLink).toHaveAttribute("target", "_blank");
   });
 
   it("renders GitHub CTA button", () => {
@@ -139,13 +188,13 @@ describe("ProjectsSection Component", () => {
   it("has proper semantic structure", () => {
     customRender(<ProjectsSection />);
 
-    // Should have h2 for main heading, h3 for project title
+    // Should have h2 for main heading, h3 for project titles
     const headings = screen.getAllByRole("heading");
-    expect(headings).toHaveLength(2);
+    expect(headings).toHaveLength(3);
 
-    // Should have 3 links: demo, github, cta
+    // Should have 5 links: 2 demo, 2 repo, 1 cta
     const links = screen.getAllByRole("link");
-    expect(links).toHaveLength(3);
+    expect(links).toHaveLength(5);
   });
 
   it("applies hover effects and transitions", () => {
