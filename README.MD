@@ -89,6 +89,7 @@ The root README is intentionally short. The deeper implementation breakdowns now
 
 - Backend architecture, runtime model, testing, and deployment: [BACKEND_README.md](BACKEND_README.md)
 - Frontend architecture, component model, metadata pipeline, and deployment: [FRONTEND_README.md](FRONTEND_README.md)
+- Branch, PR, preview, and production workflow for changes: [docs/CHANGE_WORKFLOW.md](docs/CHANGE_WORKFLOW.md)
 
 ## Local Development
 

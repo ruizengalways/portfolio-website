@@ -27,6 +27,7 @@ This guide explains how to set up Cloudflare Pages for your portfolio frontend d
 ## Step 2: Get Your Pages URL
 
 After deployment, you'll get a URL like:
+
 - `https://portfolio-frontend.pages.dev` (free subdomain)
 - Or your custom domain if you have one
 
@@ -48,7 +49,7 @@ After updating the environment variable, redeploy the backend:
 
 ```bash
 cd backend
-npm run deploy
+npm run deploy:prod
 ```
 
 ## Custom Domain (Optional)
