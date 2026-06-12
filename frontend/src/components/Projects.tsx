@@ -44,8 +44,16 @@ const projects = [
       "A production-shaped data platform case study spanning CDC, governed batch and streaming pipelines, warehouse publishing, dbt Mesh contracts, observability, and safe AI access.",
     image:
       "https://ingest-to-insight.ruizeng.dev/assets/platform-command-center.png",
-    tags: ["Data Engineering", "CDC", "dbt Mesh", "AI Access"],
+    tags: [
+      "E2E Data Platform",
+      "Batch",
+      "Streaming",
+      "CDC",
+      "Data Governance",
+      "Observability",
+    ],
     demoUrl: "https://ingest-to-insight.ruizeng.dev/",
+    githubUrl: "https://github.com/ruizengalways",
   },
 ];
 

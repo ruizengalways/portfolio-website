@@ -127,16 +127,18 @@ describe("ProjectsSection Component", () => {
       "ML Platform",
       "Governance",
       "Observability",
-      "Data Engineering",
+      "E2E Data Platform",
+      "Batch",
+      "Streaming",
       "CDC",
-      "dbt Mesh",
-      "AI Access",
+      "Data Governance",
+      "Observability",
     ];
 
     tags.forEach((tag) => {
-      const tagElement = screen.getByText(tag);
-      expect(tagElement).toBeInTheDocument();
-      expect(tagElement).toHaveClass(
+      const tagElements = screen.getAllByText(tag);
+      expect(tagElements.length).toBeGreaterThan(0);
+      expect(tagElements[0]).toHaveClass(
         "px-2",
         "py-1",
         "text-xs",
@@ -148,9 +150,9 @@ describe("ProjectsSection Component", () => {
       );
     });
 
-    // Check that there are 16 tags
+    // Check that there are 18 tags
     const tagElements = document.querySelectorAll("span.px-2.py-1");
-    expect(tagElements).toHaveLength(16);
+    expect(tagElements).toHaveLength(18);
   });
 
   it("renders project title and description", () => {
@@ -251,9 +253,15 @@ describe("ProjectsSection Component", () => {
     );
     expect(ingestToInsightDemoLink).toHaveAttribute("target", "_blank");
 
-    expect(
-      screen.queryByRole("link", { name: "Ingest to Insight repository" }),
-    ).not.toBeInTheDocument();
+    const ingestToInsightRepositoryLink = screen.getByRole("link", {
+      name: "Ingest to Insight repository",
+    });
+    expect(ingestToInsightRepositoryLink).toBeInTheDocument();
+    expect(ingestToInsightRepositoryLink).toHaveAttribute(
+      "href",
+      "https://github.com/ruizengalways",
+    );
+    expect(ingestToInsightRepositoryLink).toHaveAttribute("target", "_blank");
   });
 
   it("renders GitHub CTA button", () => {
@@ -283,9 +291,9 @@ describe("ProjectsSection Component", () => {
     const headings = screen.getAllByRole("heading");
     expect(headings).toHaveLength(5);
 
-    // Should have 8 links: 4 demo, 3 repo, 1 cta
+    // Should have 9 links: 4 demo, 4 repo, 1 cta
     const links = screen.getAllByRole("link");
-    expect(links).toHaveLength(8);
+    expect(links).toHaveLength(9);
   });
 
   it("applies hover effects and transitions", () => {
