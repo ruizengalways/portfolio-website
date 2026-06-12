@@ -40,9 +40,9 @@ describe("ProjectsSection Component", () => {
     );
     expect(grid).toBeInTheDocument();
 
-    // Should have two project cards
+    // Should have three project cards
     const cards = document.querySelectorAll(".bg-card.rounded-lg");
-    expect(cards).toHaveLength(2);
+    expect(cards).toHaveLength(3);
   });
 
   it("renders project images with correct attributes", () => {
@@ -62,6 +62,13 @@ describe("ProjectsSection Component", () => {
       "/projects/decision-os-project-cover.png",
     );
 
+    const mlOpsBlueprintImage = screen.getByAltText("MLOps Blueprint");
+    expect(mlOpsBlueprintImage).toBeInTheDocument();
+    expect(mlOpsBlueprintImage).toHaveAttribute(
+      "src",
+      "/projects/ml-ops-blueprint-project-cover-v2.svg",
+    );
+
     expect(portfolioImage).toHaveClass(
       "w-full",
       "h-full",
@@ -71,6 +78,14 @@ describe("ProjectsSection Component", () => {
       "group-hover:scale-110",
     );
     expect(decisionOsImage).toHaveClass(
+      "w-full",
+      "h-full",
+      "object-cover",
+      "transition-transform",
+      "duration-500",
+      "group-hover:scale-110",
+    );
+    expect(mlOpsBlueprintImage).toHaveClass(
       "w-full",
       "h-full",
       "object-cover",
@@ -92,6 +107,10 @@ describe("ProjectsSection Component", () => {
       "Decision Intelligence",
       "Enterprise AI",
       "Governed AI",
+      "MLOps",
+      "ML Platform",
+      "Governance",
+      "Observability",
     ];
 
     tags.forEach((tag) => {
@@ -109,9 +128,9 @@ describe("ProjectsSection Component", () => {
       );
     });
 
-    // Check that there are 8 tags
+    // Check that there are 12 tags
     const tagElements = document.querySelectorAll("span.px-2.py-1");
-    expect(tagElements).toHaveLength(8);
+    expect(tagElements).toHaveLength(12);
   });
 
   it("renders project title and description", () => {
@@ -134,6 +153,16 @@ describe("ProjectsSection Component", () => {
       /An enterprise decision intelligence concept that shows how an LLM-based decision layer/,
     );
     expect(decisionOsDescription).toBeInTheDocument();
+
+    const mlOpsBlueprintTitle = screen.getByRole("heading", {
+      name: "MLOps Blueprint",
+    });
+    expect(mlOpsBlueprintTitle).toBeInTheDocument();
+
+    const mlOpsBlueprintDescription = screen.getByText(
+      /A production-shaped ML platform case study that makes platform judgment reviewable/,
+    );
+    expect(mlOpsBlueprintDescription).toBeInTheDocument();
   });
 
   it("renders project links with correct attributes", () => {
@@ -163,6 +192,25 @@ describe("ProjectsSection Component", () => {
       "https://ruizeng.dev",
     );
     expect(decisionOsRepositoryLink).toHaveAttribute("target", "_blank");
+
+    const mlOpsBlueprintDemoLink = screen.getByRole("link", {
+      name: "MLOps Blueprint demo",
+    });
+    expect(mlOpsBlueprintDemoLink).toHaveAttribute(
+      "href",
+      "https://ml-ops-blueprint.ruizeng.dev/",
+    );
+    expect(mlOpsBlueprintDemoLink).toHaveAttribute("target", "_blank");
+
+    const mlOpsBlueprintRepositoryLink = screen.getByRole("link", {
+      name: "MLOps Blueprint repository",
+    });
+    expect(mlOpsBlueprintRepositoryLink).toBeInTheDocument();
+    expect(mlOpsBlueprintRepositoryLink).toHaveAttribute(
+      "href",
+      "https://github.com/ruizengalways",
+    );
+    expect(mlOpsBlueprintRepositoryLink).toHaveAttribute("target", "_blank");
   });
 
   it("renders GitHub CTA button", () => {
@@ -190,11 +238,11 @@ describe("ProjectsSection Component", () => {
 
     // Should have h2 for main heading, h3 for project titles
     const headings = screen.getAllByRole("heading");
-    expect(headings).toHaveLength(3);
+    expect(headings).toHaveLength(4);
 
-    // Should have 5 links: 2 demo, 2 repo, 1 cta
+    // Should have 7 links: 3 demo, 3 repo, 1 cta
     const links = screen.getAllByRole("link");
-    expect(links).toHaveLength(5);
+    expect(links).toHaveLength(7);
   });
 
   it("applies hover effects and transitions", () => {

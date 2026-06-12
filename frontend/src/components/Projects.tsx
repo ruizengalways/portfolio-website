@@ -26,6 +26,17 @@ const projects = [
     demoUrl: "https://decision-os.ruizeng.dev/",
     githubUrl: "https://ruizeng.dev",
   },
+  {
+    id: 3,
+    title: "MLOps Blueprint",
+    description:
+      "A production-shaped ML platform case study that makes platform judgment reviewable through governed feature contracts, explicit approval gates, trusted serving, and observable operations from data to monitored inference.",
+    image: "/projects/ml-ops-blueprint-project-cover-v2.svg",
+    imageClassName: "object-left origin-left",
+    tags: ["MLOps", "ML Platform", "Governance", "Observability"],
+    demoUrl: "https://ml-ops-blueprint.ruizeng.dev/",
+    githubUrl: "https://github.com/ruizengalways",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -55,7 +66,7 @@ export const ProjectsSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 ${project.imageClassName ?? ""}`}
                 />
               </div>
 
