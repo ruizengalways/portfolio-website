@@ -388,6 +388,97 @@ exports[`ProjectsSection Component > matches snapshot 1`] = `
           </div>
         </div>
       </div>
+      <div
+        class="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex h-full flex-col"
+      >
+        <div
+          class="h-48 overflow-hidden"
+        >
+          <img
+            alt="Ingest to Insight"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 "
+            src="https://ingest-to-insight.ruizeng.dev/assets/platform-command-center.png"
+          />
+        </div>
+        <div
+          class="flex flex-1 flex-col p-6"
+        >
+          <div
+            class="flex flex-wrap gap-2 mb-4"
+          >
+            <span
+              class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+            >
+              Data Engineering
+            </span>
+            <span
+              class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+            >
+              CDC
+            </span>
+            <span
+              class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+            >
+              dbt Mesh
+            </span>
+            <span
+              class="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+            >
+              AI Access
+            </span>
+          </div>
+          <h3
+            class="text-xl font-semibold mb-1"
+          >
+             
+            Ingest to Insight
+          </h3>
+          <p
+            class="text-muted-foreground text-sm mb-4"
+          >
+            A production-shaped data platform case study spanning CDC, governed batch and streaming pipelines, warehouse publishing, dbt Mesh contracts, observability, and safe AI access.
+          </p>
+          <div
+            class="mt-auto flex items-center justify-between pt-2"
+          >
+            <div
+              class="flex space-x-3"
+            >
+              <a
+                aria-label="Ingest to Insight demo"
+                class="text-foreground/80 hover:text-primary transition-colors duration-300"
+                href="https://ingest-to-insight.ruizeng.dev/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-external-link"
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 3h6v6"
+                  />
+                  <path
+                    d="M10 14 21 3"
+                  />
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div
       class="text-center mt-12"

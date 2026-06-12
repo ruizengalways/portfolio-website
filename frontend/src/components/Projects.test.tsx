@@ -40,9 +40,9 @@ describe("ProjectsSection Component", () => {
     );
     expect(grid).toBeInTheDocument();
 
-    // Should have three project cards
+    // Should have four project cards
     const cards = document.querySelectorAll(".bg-card.rounded-lg");
-    expect(cards).toHaveLength(3);
+    expect(cards).toHaveLength(4);
   });
 
   it("renders project images with correct attributes", () => {
@@ -69,6 +69,13 @@ describe("ProjectsSection Component", () => {
       "/projects/ml-ops-blueprint-project-cover-v2.svg",
     );
 
+    const ingestToInsightImage = screen.getByAltText("Ingest to Insight");
+    expect(ingestToInsightImage).toBeInTheDocument();
+    expect(ingestToInsightImage).toHaveAttribute(
+      "src",
+      "https://ingest-to-insight.ruizeng.dev/assets/platform-command-center.png",
+    );
+
     expect(portfolioImage).toHaveClass(
       "w-full",
       "h-full",
@@ -78,6 +85,15 @@ describe("ProjectsSection Component", () => {
       "group-hover:scale-110",
     );
     expect(decisionOsImage).toHaveClass(
+      "w-full",
+      "h-full",
+      "object-cover",
+      "transition-transform",
+      "duration-500",
+      "group-hover:scale-110",
+    );
+
+    expect(ingestToInsightImage).toHaveClass(
       "w-full",
       "h-full",
       "object-cover",
@@ -111,6 +127,10 @@ describe("ProjectsSection Component", () => {
       "ML Platform",
       "Governance",
       "Observability",
+      "Data Engineering",
+      "CDC",
+      "dbt Mesh",
+      "AI Access",
     ];
 
     tags.forEach((tag) => {
@@ -128,9 +148,9 @@ describe("ProjectsSection Component", () => {
       );
     });
 
-    // Check that there are 12 tags
+    // Check that there are 16 tags
     const tagElements = document.querySelectorAll("span.px-2.py-1");
-    expect(tagElements).toHaveLength(12);
+    expect(tagElements).toHaveLength(16);
   });
 
   it("renders project title and description", () => {
@@ -163,6 +183,16 @@ describe("ProjectsSection Component", () => {
       /A production-shaped ML platform case study that makes platform judgment reviewable/,
     );
     expect(mlOpsBlueprintDescription).toBeInTheDocument();
+
+    const ingestToInsightTitle = screen.getByRole("heading", {
+      name: "Ingest to Insight",
+    });
+    expect(ingestToInsightTitle).toBeInTheDocument();
+
+    const ingestToInsightDescription = screen.getByText(
+      /A production-shaped data platform case study spanning CDC, governed batch and streaming pipelines/,
+    );
+    expect(ingestToInsightDescription).toBeInTheDocument();
   });
 
   it("renders project links with correct attributes", () => {
@@ -211,6 +241,19 @@ describe("ProjectsSection Component", () => {
       "https://github.com/ruizengalways",
     );
     expect(mlOpsBlueprintRepositoryLink).toHaveAttribute("target", "_blank");
+
+    const ingestToInsightDemoLink = screen.getByRole("link", {
+      name: "Ingest to Insight demo",
+    });
+    expect(ingestToInsightDemoLink).toHaveAttribute(
+      "href",
+      "https://ingest-to-insight.ruizeng.dev/",
+    );
+    expect(ingestToInsightDemoLink).toHaveAttribute("target", "_blank");
+
+    expect(
+      screen.queryByRole("link", { name: "Ingest to Insight repository" }),
+    ).not.toBeInTheDocument();
   });
 
   it("renders GitHub CTA button", () => {
@@ -238,11 +281,11 @@ describe("ProjectsSection Component", () => {
 
     // Should have h2 for main heading, h3 for project titles
     const headings = screen.getAllByRole("heading");
-    expect(headings).toHaveLength(4);
+    expect(headings).toHaveLength(5);
 
-    // Should have 7 links: 3 demo, 3 repo, 1 cta
+    // Should have 8 links: 4 demo, 3 repo, 1 cta
     const links = screen.getAllByRole("link");
-    expect(links).toHaveLength(7);
+    expect(links).toHaveLength(8);
   });
 
   it("applies hover effects and transitions", () => {
