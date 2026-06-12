@@ -1,0 +1,82 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071514" />
+      <stop offset="0.58" stop-color="#091010" />
+      <stop offset="1" stop-color="#10110F" />
+    </linearGradient>
+    <radialGradient id="tealGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 160) rotate(31) scale(520 420)">
+      <stop stop-color="#0D6155" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#0D6155" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 520) rotate(180) scale(340 260)">
+      <stop stop-color="#8F5C1A" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#8F5C1A" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" stroke="#28413A" stroke-width="1" opacity="0.45" />
+    </pattern>
+    <filter id="panelShadow" x="690" y="126" width="430" height="404" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.24" />
+    </filter>
+    <filter id="glow" x="650" y="140" width="430" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="675" rx="28" fill="url(#grid)" />
+  <rect width="1200" height="675" rx="28" fill="url(#tealGlow)" />
+  <rect width="1200" height="675" rx="28" fill="url(#warmGlow)" />
+  <rect x="58" y="44" width="1084" height="587" rx="24" stroke="#1E3A34" />
+
+  <g>
+    <circle cx="114" cy="144" r="3.5" fill="#33D0AF" />
+    <path d="M114 132V156M102 144H126M106 136L122 152M122 136L106 152" stroke="#33D0AF" stroke-width="2.2" stroke-linecap="round" opacity="0.9" />
+    <text x="140" y="151" fill="#41C9AF" font-family="IBM Plex Mono, Menlo, monospace" font-size="23" letter-spacing="0.16em">RUI ZENG / PLATFORM LEADERSHIP CASE STUDY</text>
+  </g>
+
+  <text x="112" y="278" fill="#F3F6F2" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="800">MLOps</text>
+  <text x="112" y="382" fill="#F3F6F2" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="800">Blueprint</text>
+
+  <text x="116" y="446" fill="#C2CAC4" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">A production-shaped ML platform slice</text>
+  <text x="116" y="484" fill="#C2CAC4" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">for trusted delivery.</text>
+
+  <g>
+    <rect x="112" y="586" width="158" height="38" rx="19" fill="#112420" stroke="#21443C" />
+    <text x="142" y="610" fill="#DDE7E0" font-family="IBM Plex Mono, Menlo, monospace" font-size="16">train / serve</text>
+    <rect x="284" y="586" width="156" height="38" rx="19" fill="#112420" stroke="#21443C" />
+    <text x="314" y="610" fill="#DDE7E0" font-family="IBM Plex Mono, Menlo, monospace" font-size="16">approved-only</text>
+    <rect x="454" y="586" width="150" height="38" rx="19" fill="#112420" stroke="#21443C" />
+    <text x="489" y="610" fill="#DDE7E0" font-family="IBM Plex Mono, Menlo, monospace" font-size="16">observable</text>
+  </g>
+
+  <g>
+    <circle cx="900" cy="352" r="122" fill="#2CD1AD" fill-opacity="0.08" filter="url(#glow)" />
+    <circle cx="1000" cy="440" r="110" fill="#A76E1C" fill-opacity="0.08" filter="url(#glow)" />
+    <circle cx="918" cy="336" r="132" stroke="#1D4B42" stroke-width="1.5" opacity="0.55" />
+    <circle cx="918" cy="336" r="88" stroke="#1D4B42" stroke-width="1" opacity="0.35" />
+  </g>
+
+  <g filter="url(#panelShadow)">
+    <rect x="794" y="220" width="238" height="58" rx="18" fill="#10211E" stroke="#2A5147" />
+    <rect x="842" y="300" width="196" height="52" rx="18" fill="#10211E" stroke="#2A5147" />
+    <rect x="770" y="376" width="232" height="56" rx="18" fill="#10211E" stroke="#2A5147" />
+
+    <path d="M770 249H794" stroke="#2BC8AB" stroke-width="3" stroke-linecap="round" />
+    <path d="M818 326H842" stroke="#D97C8F" stroke-width="3" stroke-linecap="round" />
+    <path d="M746 404H770" stroke="#B7B98A" stroke-width="3" stroke-linecap="round" />
+
+    <circle cx="760" cy="249" r="7" fill="#2CD1AD" />
+    <circle cx="808" cy="326" r="7" fill="#D97C8F" />
+    <circle cx="736" cy="404" r="7" fill="#B7B98A" />
+
+    <text x="824" y="256" fill="#DCE6DF" font-family="IBM Plex Mono, Menlo, monospace" font-size="17" letter-spacing="0.12em">governed</text>
+    <text x="870" y="333" fill="#F2F5F3" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">serve</text>
+    <text x="802" y="412" fill="#DCE6DF" font-family="IBM Plex Mono, Menlo, monospace" font-size="17" letter-spacing="0.12em">observed</text>
+
+    <path d="M910 238H996" stroke="#325D53" />
+    <path d="M894 315H990" stroke="#325D53" />
+    <path d="M878 392H962" stroke="#325D53" />
+  </g>
+</svg>
