@@ -37,6 +37,24 @@ const projects = [
     demoUrl: "https://ml-ops-blueprint.ruizeng.dev/",
     githubUrl: "https://github.com/ruizengalways",
   },
+  {
+    id: 4,
+    title: "Ingest to Insight",
+    description:
+      "A production-shaped data platform case study spanning CDC, governed batch and streaming pipelines, warehouse publishing, dbt Mesh contracts, observability, and safe AI access.",
+    image:
+      "https://ingest-to-insight.ruizeng.dev/assets/platform-command-center.png",
+    tags: [
+      "E2E Data Platform",
+      "Batch",
+      "Streaming",
+      "CDC",
+      "Data Governance",
+      "Observability",
+    ],
+    demoUrl: "https://ingest-to-insight.ruizeng.dev/",
+    githubUrl: "https://github.com/ruizengalways",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -97,15 +115,17 @@ export const ProjectsSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`${project.title} repository`}
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
+                    {project.githubUrl ? (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} repository`}
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <Github size={20} />
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>
